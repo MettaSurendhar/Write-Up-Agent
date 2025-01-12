@@ -130,6 +130,6 @@ linkedin_prompts=[
   }
 ]
 
-def get_linkedin_prompts(category):
+def get_linkedin_prompt(category):
     matched_prompts= list(filter(lambda p: p["category"] == category, linkedin_prompts))
     return matched_prompts[0]["prompt"]

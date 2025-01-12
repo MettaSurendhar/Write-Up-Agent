@@ -46,15 +46,14 @@ class ChatAgent:
     self.pipeline.connect("prompt_builder", "generator")
 
   @component.output_types(response=dict[str, Any])
-  def run(self, query: str, data: dict[str:Any], prompt: ChatMessage ):
+  def run(self, data: dict[str:Any], prompt: ChatMessage ):
 
     messages= self.chat_history + [prompt]
    
-    print(" Messages : \n" , messages)
     result = self.pipeline.run(
       data={
         "prompt_builder": {
-          "template_variables":{"query": query, "data":data},
+          "template_variables":{ "data":data},
           "template": messages
           }
       })
