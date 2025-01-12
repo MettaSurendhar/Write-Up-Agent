@@ -11,12 +11,12 @@ from settings import bank_chat_history, get_prompt_by_category,get_chat_history_
 # recommendations_budget/financial_health
 
 ## --- Chat Response Generator --- ##
-def chat_response_generator(type: str, category: str, query: str, data: dict[str, Any]):
+def chat_response_generator(history_type: str, prompt_type: str, data: dict[str, Any]):
   
   chat_history = get_chat_history_by_type(type)
   chat_agent = ChatAgent(chat_history)
-  prompt = get_prompt_by_category(category=category)
-  user_prompt=ChatMessage.from_user(prompt)
+  prompt = get_prompt_by_category(category=prompt_type)
+  user_prompt=ChatMessage(content=prompt, role=ChatRole.USER, name="Metta")
 
   result = chat_agent.run(query,data,user_prompt)
   response = result["response"]
