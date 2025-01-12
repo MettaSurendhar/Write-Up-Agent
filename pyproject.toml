@@ -1,0 +1,13 @@
+[project]
+name = "writeup-assistant"
+version = "0.1.0"
+description = "Assist Metta by writing content for his posts and blogs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.6",
+    "google-generativeai>=0.8.3",
+    "haystack-ai>=2.8.1",
+    "python-dotenv>=1.0.1",
+    "typing>=3.10.0.0",
+]
