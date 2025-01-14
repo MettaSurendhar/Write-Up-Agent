@@ -199,3 +199,43 @@ writing_style_prompt = "You are a prompt generator,only based on the user-provid
 def get_linkedin_prompt(category):
     matched_prompts= list(filter(lambda p: p["category"] == category, linkedin_prompts))
     return matched_prompts[0]["prompt"]
+
+# ------------ CATEGORY ------------- #
+
+linkedin_post_categories={
+  "event":{
+    "Event Title":"Name of the event attended",
+    "Event Details":"A brief description of key sessions, topics, and speakers",
+    "Thanks Detail":"Any acknowledgments or appreciation for organizers, speakers, or participants"
+  },
+  "blog":{
+    "Blog Title":"Name of the blog post",
+    "Blog":"Brief overview of the blog’s content or topic",
+    "Blog Link":"URL to access the blog"
+  },
+  "experience":{
+    "Detail":"Concise description of the experience or project",
+    "Preference":"Order of priority for presenting gratitude, highlights, or summary",
+    "Gratitude":"Acknowledgment of people, groups, or entities involved in the experience"
+  },
+  "certificate":{
+    "Certification Title":"Title of the certification",
+    "Details":"Brief overview of what the certification covers",
+    "Link":"Optional URL for verification of the certification"
+  },
+  "contribution":{
+    "Details":"Overview of what the contribution entails",
+    "Link":"URL to access the contribution",
+    "Type of Contribution":"Specify whether it’s a template, notion setup, repository, etc"
+  },
+  "hackathon":{
+    "Hackathon Title":"Title of the hackathon",
+    "Purpose":"Reason for participation (e.g., submission, won, finalist)",
+    "Details":"Overview or highlights of the experience"
+  },
+  "project":{
+    "Details":"Main message or content of the post",
+    "Link":"Optional URL to include for further details or reference",
+    "Purpose":"Brief reason for the post (e.g., sharing insight, seeking feedback, announcing something)"
+  }
+}

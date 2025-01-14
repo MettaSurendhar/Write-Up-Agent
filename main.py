@@ -61,5 +61,5 @@ def response_generator(data: str):
 
 
 ## Example usage response generator
-data="no emoji /n professional /n friendly /n engaging"
-print(response_generator(data))
+# data="no emoji /n professional /n friendly /n engaging"
+# print(response_generator(data))
