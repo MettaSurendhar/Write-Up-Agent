@@ -5,12 +5,10 @@ from haystack.components.builders import PromptBuilder,ChatPromptBuilder
 from haystack_integrations.components.generators.google_ai import GoogleAIGeminiGenerator,GoogleAIGeminiChatGenerator
 from haystack import Pipeline
 from dotenv import load_dotenv
-import google.generativeai as genai
 import os
 import io 
 
 os.environ["GOOGLE_API_KEY"]="AIzaSyDI4oqkPgsZIqlhnM2ra-VhuOSRWBs1nMM"
-genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 @component
 class Agent:
@@ -24,14 +22,14 @@ class Agent:
     self.pipeline.connect("prompt_builder", "generator")
 
   @component.output_types(response=dict[str, Any])
-  def run(self, query: str, data: dict[str:Any]):
-    result = self.pipeline.run(
-      data={  
-        "prompt_builder": {{"query": query}, {"data":data}}
+  def run(self, data: str):
+    result = self.pipeline.run({  
+        "prompt_builder": {"data": data}
       })
     response = result["generator"]["replies"][0]
 
     return response
+
 
 @component
 class ChatAgent:
