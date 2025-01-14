@@ -9,7 +9,7 @@ import google.generativeai as genai
 import os
 import io 
 
-os.environ["GOOGLE_API_KEY"]="google-api-key"
+os.environ["GOOGLE_API_KEY"]="AIzaSyDI4oqkPgsZIqlhnM2ra-VhuOSRWBs1nMM"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 @component
@@ -46,10 +46,11 @@ class ChatAgent:
     self.pipeline.connect("prompt_builder", "generator")
 
   @component.output_types(response=dict[str, Any])
-  def run(self, data: dict[str:Any], prompt: ChatMessage ):
+  def run(self, data: str, prompt: ChatMessage ):
 
     messages= self.chat_history + [prompt]
-   
+    # print(messages)
+    # print("-"*50)
     result = self.pipeline.run(
       data={
         "prompt_builder": {
@@ -57,6 +58,7 @@ class ChatAgent:
           "template": messages
           }
       })
+    # print(result)
     response = result["generator"]["replies"][0].content
 
     return {"response":response}

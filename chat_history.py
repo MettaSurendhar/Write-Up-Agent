@@ -2,7 +2,7 @@ from haystack.dataclasses import ChatMessage, ChatRole
 from typing import List
   
 linkedin_chat_history = {
-  "event_chat_history": [
+  "event": [
     ChatMessage(
       content="""
       Event Title: Cloud Native Computing Foundation (CNCF) Chennai - Oct 2024 Meetup
@@ -11,7 +11,7 @@ linkedin_chat_history = {
       
       Talk 1: "Preventing Lateral Movement Attacks on Cloud Services and Resources" by Midhun NS & Dhamupravin S, focused on critical cloud vulnerabilities and actionable solutions. 
       
-      Talk 2: "What’s Next in Kubernetes 2025?" by Ganesh Kumar Kasiviswanathan, introducing future trends like KubeVirt, Kubeflow for GenAI, and Compact Edge. Engaging discussions on cloud security, Kubernetes advancements, and the future of cloud-native technologies.
+      Talk 2: "What's Next in Kubernetes 2025?" by Ganesh Kumar Kasiviswanathan, introducing future trends like KubeVirt, Kubeflow for GenAI, and Compact Edge. Engaging discussions on cloud security, Kubernetes advancements, and the future of cloud-native technologies.
       
       Thanks Details: Thanks to Manikandan Krishnamurthy, Vijayabharathi Karuppasamy, Padmanaban Solaimalai, and YuniQ for organizing this enriching event. Special mention for the Kubernetes swag that added a fun touch!
       """,role=ChatRole.USER, name="Metta"
@@ -27,7 +27,7 @@ linkedin_chat_history = {
       
       We dove into the serious (but often underestimated!) threat of lateral movement in cloud environments. Imagine attackers gaining initial access and then hopping across infrastructure undetected. This session highlighted the vulnerabilities enabling this kind of movement and offered practical, actionable tips for hardening cloud defenses. A crucial topic for anyone invested in cloud security!
 
-      Talk 2: "What’s Next in Kubernetes 2025 ?"
+      Talk 2: "What's Next in Kubernetes 2025 ?"
       Speaker: Ganesh Kumar Kasiviswanathan
 
       Ganesh shared some exciting trends in Kubernetes, including:
@@ -38,9 +38,9 @@ linkedin_chat_history = {
 
       Big thanks to Manikandan Krishnamurthy, Vijayabharathi Karuppasamy, and Padmanaban Solaimalai for organizing & co-ordinating and to YuniQ for partnering such an enriching event! 
 
-      Making it even better with some awesome swag (Kubernetes socks! 🧦💙), it’s always fun to bring a piece of the community home!
+      Making it even better with some awesome swag (Kubernetes socks! 🧦💙), it's always fun to bring a piece of the community home!
 
-      Grateful for the opportunity to learn, connect, and stay on top of emerging tech trends and can’t wait to attend more CNCF Chennai Meetups! 🚀
+      Grateful for the opportunity to learn, connect, and stay on top of emerging tech trends and can't wait to attend more CNCF Chennai Meetups! 🚀
 
       #CloudNative #AI #TechInnovation #Learning #Innovation #CNCFMeetup #CloudNativeChennaiMeetUp #CNChennaiMeetUp #CNChennai #CloudNativeChennai #CNChennaiMeetup
 
@@ -65,7 +65,7 @@ linkedin_chat_history = {
       content="""
       Hey friends! 👋
 
-      I had the pleasure of attending the "Grafana Labs & Friends Chennai Meetup" yesterday, and it was an incredible learning experience filled with insightful talks on observability and performance testing. Here’s a quick recap of the highlights:
+      I had the pleasure of attending the "Grafana Labs & Friends Chennai Meetup" yesterday, and it was an incredible learning experience filled with insightful talks on observability and performance testing. Here's a quick recap of the highlights:
 
       Talk 1: "Performance Testing Your Observability Stack - K6 to Your Rescue" 
       Speaker: Chandra Mohan Dhanasekaran, Senior Cloud Architect, Philips 
@@ -75,7 +75,7 @@ linkedin_chat_history = {
       Talk 2: "Our Grafana Story: Insights and Innovations"
       Speaker: MANOJKUMAR G, SRE Professional, IBM
 
-      Manojkumar shared fascinating insights on observability, discussing how their infrastructure handles logs, metrics, traces, and profiling. He presented three major real-world challenges and their solutions using Grafana and AI. This talk was my personal favorite, and I’m planning to dive deeper into these insights in an upcoming blog post. Stay tuned!
+      Manojkumar shared fascinating insights on observability, discussing how their infrastructure handles logs, metrics, traces, and profiling. He presented three major real-world challenges and their solutions using Grafana and AI. This talk was my personal favorite, and I'm planning to dive deeper into these insights in an upcoming blog post. Stay tuned!
 
       Talk 3: "Leveraging OpenTelemetry for Observability in Modern Applications"
       Speaker: Selvaraj Kuppusamy, DevOps Engineer, Grootan Technologies
@@ -112,7 +112,7 @@ linkedin_chat_history = {
 
       ✨ An Incredible Learning Experience at Cloud Native Computing Foundation (CNCF) Chennai Meetup! ✨
 
-      Yesterday, I had the privilege of attending the Cloud Native Computing Foundation (CNCF) Chennai Meetup, and wow, what an insightful event it was! 🙌 It was packed with cutting-edge topics, brilliant speakers, and valuable takeaways. Here’s a quick recap:
+      Yesterday, I had the privilege of attending the Cloud Native Computing Foundation (CNCF) Chennai Meetup, and wow, what an insightful event it was! 🙌 It was packed with cutting-edge topics, brilliant speakers, and valuable takeaways. Here's a quick recap:
 
       🌟 Seamless Cloud Deployments Without the Kubernetes Complexity 
       💡 Speaker: Lakshmi Narasimhan Parthasarathy
@@ -122,7 +122,7 @@ linkedin_chat_history = {
       🌟 Portals vs. Platforms: What Do You Need?
       💡Speaker: Ram Iyengar 
 
-      Ram’s session was incredibly insightful, clarifying the differences between portals and platforms. With real-world case studies, I learned how portals can enhance user experience while platforms offer greater flexibility and scalability. This was a great reminder of how important it is to align technical decisions with business goals. 💻🔍
+      Ram's session was incredibly insightful, clarifying the differences between portals and platforms. With real-world case studies, I learned how portals can enhance user experience while platforms offer greater flexibility and scalability. This was a great reminder of how important it is to align technical decisions with business goals. 💻🔍
 
       🌟 The Future with Vertex AI
       💡 Speaker: Rushabh Vasa
@@ -131,7 +131,7 @@ linkedin_chat_history = {
 
       A huge thank you to YuniQ and Google Developers Group for partnering such an enriching event! 
 
-      Grateful for the opportunity to learn, connect, and stay on top of emerging tech trends. Looking forward to applying these insights to future projects and can’t wait to attend more CNCF Chennai Meetups! 💪✨
+      Grateful for the opportunity to learn, connect, and stay on top of emerging tech trends. Looking forward to applying these insights to future projects and can't wait to attend more CNCF Chennai Meetups! 💪✨
 
       #CloudNative #AI #TechInnovation #VertexAI #RAG #CloudDeployments #PortalsVsPlatforms #Networking #Learning #Innovation #CNCFMeetup #CloudNativeChennaiMeetUp #CNChennaiMeetUp #CNChennai #CloudNativeChennai
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
@@ -191,7 +191,7 @@ linkedin_chat_history = {
 
       I had an incredible time at the latest Cloud Native Chennai meetup, where we delved into some cutting-edge topics in cloud technology! 🚀
 
-      Here’s a snapshot of the fantastic sessions we explored:
+      Here's a snapshot of the fantastic sessions we explored:
 
       🔹 Ram Iyengar from the Cloud Foundry Foundation enlightened us with "Cloud Native Containers: Myth, Truth, or Marketing?" He covered everything from creating container images and OCI standards to exploring tools like buildkit and podman, and why Docker has gained such prominence. 🌐
 
@@ -205,34 +205,29 @@ linkedin_chat_history = {
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     )
   ],
-  "blog_chat_history": [
+  "blog": [
     ChatMessage(
-      content="""
-      Blog Title: From Newbie to Web Developer
-      
+      content="""Blog Title: From Newbie to Web Developer
       Blog: Starting out in web development can feel a bit like navigating a maze with no map. In my latest blog post, I share how I went from a complete newbie to building my own websites. I talk about the struggles I faced, the resources that helped me, and some tips that might make your path a bit smoother.
-      
-      Blog Link: Metta’s Tech Bytes 🚀
+      Blog Link: Metta's Tech Bytes 🚀
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      Hey everyone! 🌟
+      content="""Hey everyone! 🌟
 
       Starting out in web development can feel a bit like trying to navigate a maze with no map, especially if you think you're behind or unsure where to start. I totally get it—I began my journey in the second semester of my first year and felt pretty lost at times. 😅
 
       In my latest blog post, I share how I went from a complete newbie to building my own websites 🌐. I talk about the struggles I faced, the resources that helped me, and some tips that might make your path a bit smoother.
 
-      Curious? 🤔 Check out my story and get some inspiration to kickstart your own tech journey! You can read the full post here: Metta’s Tech Bytes 🚀
+      Curious? 🤔 Check out my story and get some inspiration to kickstart your own tech journey! You can read the full post here: Metta's Tech Bytes 🚀
 
-      Let’s learn and grow together! If you have any questions or just want to chat about coding, feel free to reach out. 💬💻
+      Let's learn and grow together! If you have any questions or just want to chat about coding, feel free to reach out. 💬💻
 
       #WebDevelopment #CodingJourney #TechTips #MettaTechBytes
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: Enhancing CSS Skills Through Real-World Projects
+      content="""Blog Title: Enhancing CSS Skills Through Real-World Projects
 
       Blog: Learning CSS can be a lot of fun, especially if you're a beginner! In my latest blog post, I share how mimicking real-world websites helped me refine my CSS abilities. By working on similar projects, I steadily improved my CSS skills.
       
@@ -240,8 +235,7 @@ linkedin_chat_history = {
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      Hey everyone! 🌟
+      content="""Hey everyone! 🌟
 
       Learning CSS can be a lot of fun, especially if you're a beginner! I've found an exciting way to do it—by mimicking real-world websites. That's how I started creating my first modern UI and responsive websites. By working on similar projects, I steadily improved my CSS skills. 🎨✨
 
@@ -249,38 +243,35 @@ linkedin_chat_history = {
 
       Dive into my blog and see how you can enhance your CSS skills too! You can read the full post here: https://lnkd.in/ga9fPGPc🚀
 
-      Looking forward to hearing your thoughts and experiences. Let’s inspire each other on this coding journey! 💬💻
+      Looking forward to hearing your thoughts and experiences. Let's inspire each other on this coding journey! 💬💻
 
       #CSS #WebDevelopment #FrontendDevelopment #LearnToCode #BeginnerCoder #CodingJourney #WebDesign #ResponsiveDesign #TechLearning #CodeNewbie #MettasTechBytes #WebDev #HTML #CSSSkills #Programming #TechCommunity #WebDevProjects #CodeLife #TechInspiration #BuildWithCSS
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: Getting Started with Open Source
+      content="""Blog Title: Getting Started with Open Source
 
-      Blog: I just wrote an article about my journey into the world of open source. If you’re new to open source, check out these tips and resources to get started, including beginner-friendly repositories and more.
+      Blog: I just wrote an article about my journey into the world of open source. If you're new to open source, check out these tips and resources to get started, including beginner-friendly repositories and more.
 
       Blog Link: https://lnkd.in/ghmRiJ6N
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      Hey folks !
+      content="""Hey folks !
 
-      I just wrote an article about my journey into the world of open source, and I’m super excited to share it with you all! 🌟
+      I just wrote an article about my journey into the world of open source, and I'm super excited to share it with you all! 🌟
 
-      If you’re new to open source like me, check out these tips and resources to get started. From joining mailing lists and IRC channels to contributing to some beginner-friendly repositories, there's something for everyone.
+      If you're new to open source like me, check out these tips and resources to get started. From joining mailing lists and IRC channels to contributing to some beginner-friendly repositories, there's something for everyone.
 
       Read more about it here: https://lnkd.in/ghmRiJ6N
 
-      Let’s dive into open source together and make a difference! 💻✨
+      Let's dive into open source together and make a difference! 💻✨
 
       #OpenSource #TechCommunity #NewbieContributor #CodingJourney #TechTips #Programming #LearnToCode #DeveloperCommunity #Innovation #Collaboration #TechGrowth
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: The Evolution of Container Technology
+      content="""Blog Title: The Evolution of Container Technology
 
       Blog: Have you ever wondered how container technology evolved? In my latest blog, I explore why containers are so powerful, how Docker revolutionized the industry, and the role of the Open Container Initiative.
       
@@ -288,8 +279,7 @@ linkedin_chat_history = {
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      Hey everyone! 👋
+      content="""Hey everyone! 👋
 
       Have you ever wondered how container technology evolved to become such a game-changer in software development? 🚀
 
@@ -297,7 +287,7 @@ linkedin_chat_history = {
 
       In my latest blog, I explore this journey and dive into why containers are so powerful, how Docker revolutionized the industry, and the role of the Open Container Initiative in standardizing it all. 🌐
 
-      If you’re into DevOps or just curious about the tech that’s driving modern development, you’ll want to check this out!
+      If you're into DevOps or just curious about the tech that's driving modern development, you'll want to check this out!
 
       🔗 Read the full blog here 
       https://lnkd.in/d_u2RDq6
@@ -306,8 +296,7 @@ linkedin_chat_history = {
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: Exploring Containerization Tools Post-CNCF Meetup
+      content="""Blog Title: Exploring Containerization Tools Post-CNCF Meetup
 
       Blog: Inspired by a CNCF Meetup session, I wrote a blog about Docker's impact, why Podman is a secure alternative, and tools like Buildah and Kaniko for container builds.
 
@@ -315,8 +304,7 @@ linkedin_chat_history = {
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      Hey everyone! 👋
+      content="""Hey everyone! 👋
 
       I recently had the chance to attend the Cloud Native Computing Foundation (CNCF) Chennai Meetup, and it was an eye-opener! 🌟 Ram Iyengar, the Chief Evangelist at Cloud Foundry Foundation, gave a brilliant talk on "Cloud Native Containers: Myth, Truth, or Marketing?" where he explored the evolution of container technology, from the early days to the rise of Docker and beyond.
 
@@ -325,7 +313,7 @@ linkedin_chat_history = {
       -> Why Podman is becoming the go-to secure alternative.
       -> Top open-source tools like Buildah, Kaniko, and more that are reshaping container builds.
 
-      If you're into DevOps or just curious about the future of containerization, check it out! Let’s keep the conversation going on how these tools can enhance security and streamline our workflows.
+      If you're into DevOps or just curious about the future of containerization, check it out! Let's keep the conversation going on how these tools can enhance security and streamline our workflows.
 
       🔗 Read the full blog here https://lnkd.in/gW_8zWrb
 
@@ -333,26 +321,24 @@ linkedin_chat_history = {
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: Rootless Containers for Enhanced Security
+      content="""Blog Title: Rootless Containers for Enhanced Security
       
-      Blog: My latest blog dives into what rootless containers are and why they’re essential for secure operations. I also discuss tools like Podman and how to run containers safely.
+      Blog: My latest blog dives into what rootless containers are and why they're essential for secure operations. I also discuss tools like Podman and how to run containers safely.
       
       Blog Link: https://lnkd.in/dD8s6Dw7
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      Hey everyone! 👋
+      content="""Hey everyone! 👋
 
-      We all know how powerful containers are, but did you know that running them with root privileges can expose your entire system to serious security risks? 😱 That’s where rootless containers come in—a game-changer for enhancing security in your containerized environments. 🚀
+      We all know how powerful containers are, but did you know that running them with root privileges can expose your entire system to serious security risks? 😱 That's where rootless containers come in—a game-changer for enhancing security in your containerized environments. 🚀
 
       In my latest blog, I dive into:
-      -> What rootless containers are and why they’re essential for secure operations.
+      -> What rootless containers are and why they're essential for secure operations.
       -> How tools like Podman make rootless the default, providing a safer alternative to Docker.
       -> Practical tips on how to check and run containers without root privileges.
 
-      If you’re serious about securing your infrastructure, this is a must-read! 🔒
+      If you're serious about securing your infrastructure, this is a must-read! 🔒
 
       🔗 Read the full blog here https://lnkd.in/dD8s6Dw7
 
@@ -360,8 +346,7 @@ linkedin_chat_history = {
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: Observability: Beyond Monitoring
+      content="""Blog Title: Observability: Beyond Monitoring
       
       Blog: In my latest blog, I break down observability, its key differences from monitoring, and the three pillars: Logs, Metrics, and Traces. I share my experience with tools like Grafana and Cribl.
       
@@ -369,8 +354,7 @@ linkedin_chat_history = {
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      Hey folks,
+      content="""Hey folks,
 
       Ever wondered how tech giants keep their systems running smoothly? Or how you can make your projects rock-solid? The secret is Observability! 🔍
 
@@ -394,8 +378,7 @@ linkedin_chat_history = {
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: Elevating Observability with Grafana
+      content="""Blog Title: Elevating Observability with Grafana
       
       Blog: I explore how Grafana transforms observability with stunning visualizations and unified data sources. From custom alerts to deeper insights, learn how Grafana can elevate your game.
       
@@ -405,13 +388,13 @@ linkedin_chat_history = {
     ChatMessage(
       content="""Hey friends! 👋
 
-      Apologies for the delay, but I’m thrilled to finally share my latest blog post with you! 🎉 
+      Apologies for the delay, but I'm thrilled to finally share my latest blog post with you! 🎉 
 
-      After spending the past few months diving into Grafana Labs, I’m excited to share how this powerful tool has transformed my approach to observability. 🚀
+      After spending the past few months diving into Grafana Labs, I'm excited to share how this powerful tool has transformed my approach to observability. 🚀
 
-      Grafana isn’t just another dashboard—it's a game-changer. From turning complex data into stunning visualizations to uniting various data sources into one seamless view, Grafana has become an essential part of my toolkit. 🌟
+      Grafana isn't just another dashboard—it's a game-changer. From turning complex data into stunning visualizations to uniting various data sources into one seamless view, Grafana has become an essential part of my toolkit. 🌟
 
-      Over the past few months, I’ve used Grafana to set up custom alerts, explore analytics, and gain deeper insights into system performance. It’s been a fantastic journey, and I’m eager to share how you can make the most of Grafana for your own observability needs.
+      Over the past few months, I've used Grafana to set up custom alerts, explore analytics, and gain deeper insights into system performance. It's been a fantastic journey, and I'm eager to share how you can make the most of Grafana for your own observability needs.
 
       Curious to see how Grafana can elevate your observability game? Check out my blog for tips and insights from my personal experience.
 
@@ -423,8 +406,7 @@ linkedin_chat_history = {
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: Setting Up Cribl and Grafana for Data Collection
+      content="""Blog Title: Setting Up Cribl and Grafana for Data Collection
       
       Blog: I just published a detailed guide on setting up Cribl and Grafana for data collection, processing, and visualization. This step-by-step guide covers building real-time monitoring dashboards.
       
@@ -432,8 +414,7 @@ linkedin_chat_history = {
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      🚀 New Blog Post Alert! 🚀
+      content="""🚀 New Blog Post Alert! 🚀
 
       Hey folks! 🌟 
 
@@ -443,14 +424,13 @@ linkedin_chat_history = {
 
       🔗 Check it out and start building your own real-time monitoring dashboard today: https://lnkd.in/gKHN_CQW
 
-      Feel free to drop your thoughts or questions in the comments! Let’s dive into observability together! 🛠️✨ 
+      Feel free to drop your thoughts or questions in the comments! Let's dive into observability together! 🛠️✨ 
 
       #Observability #DataCollection #Grafana #Cribl #DataVisualization #Monitoring
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
     ChatMessage(
-      content="""
-      Blog Title: Observability Insights from IBM at Grafana Meetup
+      content="""Blog Title: Observability Insights from IBM at Grafana Meetup
       
       Blog: I attended the Grafana and Friends Meetup, where an IBM SRE shared how they tackle observability challenges with AI and Grafana. Read my detailed blog for all the insights.
       
@@ -458,24 +438,23 @@ linkedin_chat_history = {
       """, role=ChatRole.USER, name="Metta"
     ),
     ChatMessage(
-      content="""
-      Hey folks,
+      content="""Hey folks,
 
       Had an amazing time at the Grafana and Friends Meetup in Chennai, where I attended a standout session by MANOJKUMAR G, an SRE from IBM. His insights on how IBM tackles observability challenges using Grafana and AI were truly eye-opening
 
-      From missing logs in centralized systems to alert fatigue, Manojkumar shared practical solutions IBM has implemented to keep their systems running smoothly. It was fascinating to see how they’re leveraging AI and unified dashboards to streamline diagnostics and reduce noise in alerts.
+      From missing logs in centralized systems to alert fatigue, Manojkumar shared practical solutions IBM has implemented to keep their systems running smoothly. It was fascinating to see how they're leveraging AI and unified dashboards to streamline diagnostics and reduce noise in alerts.
 
-      This session has definitely deepened my interest in observability, and I’m excited to explore more advanced tools like the #LGTM stack and Cribl in the coming weeks.
+      This session has definitely deepened my interest in observability, and I'm excited to explore more advanced tools like the #LGTM stack and Cribl in the coming weeks.
 
-      If you're curious about how IBM is pushing the boundaries of system monitoring, I’ve shared a detailed blog with all the insights.
+      If you're curious about how IBM is pushing the boundaries of system monitoring, I've shared a detailed blog with all the insights.
 
       Check it out! 👉 https://lnkd.in/gJT2kc35
 
       #IBM #Observability #Grafana #TechInsights #AI
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
-    ),
+    )
   ],
-  "experience_chat_history": [
+  "experience": [
     ChatMessage(
       content="""
       Detail: 
@@ -484,7 +463,7 @@ linkedin_chat_history = {
       Key highlights of the tenure include:
         Representing student voices to the university administration to address key concerns and improve the student experience.
         
-        Co-organizing the 77th edition of Techofes, South India’s largest cultural fest, which featured movie nights, concerts, workshops, and various activities.
+        Co-organizing the 77th edition of Techofes, South India's largest cultural fest, which featured movie nights, concerts, workshops, and various activities.
         
         Supporting the team in organizing events like Utopia and Techofes, ensuring they were impactful and memorable for students.
         
@@ -565,7 +544,7 @@ linkedin_chat_history = {
       """, role=ChatRole.USER, name="Metta"
     ),
   ],
-  "contribution_chat_history": [
+  "contribution": [
     ChatMessage(
       content="""
       Details: Powering Through Long-Term Project Execution - A Notion template to help manage long-term projects with roles, objectives, milestones, and tasks.
@@ -579,13 +558,13 @@ linkedin_chat_history = {
       content="""
       🚀 New Notion Template Alert! 🚀
 
-      I’m excited to share my latest template: Powering Through Long-Term Project Execution ! 
+      I'm excited to share my latest template: Powering Through Long-Term Project Execution ! 
 
       This template is designed to help you manage long-term projects with ease and efficiency.
 
-      💼 Whether you’re leading a team or tackling a big project solo, this template has you covered. From assigning roles and setting clear objectives to tracking milestones and breaking down tasks, it’s all about keeping things organized and on track.
+      💼 Whether you're leading a team or tackling a big project solo, this template has you covered. From assigning roles and setting clear objectives to tracking milestones and breaking down tasks, it's all about keeping things organized and on track.
 
-      ✨ It’s free, and perfect for keeping everything running smoothly from start to finish! ✨
+      ✨ It's free, and perfect for keeping everything running smoothly from start to finish! ✨
 
       Check it out here: 🔗 https://lnkd.in/gv9kAZ_g
 
@@ -607,9 +586,9 @@ linkedin_chat_history = {
       content="""
       Hey folks, exciting news! 🚀
 
-      I’ve just dropped a fresh Notion template designed to take the headache out of writing API documentation! 😄
+      I've just dropped a fresh Notion template designed to take the headache out of writing API documentation! 😄
 
-      Introducing “Structured API Documentation” – your go-to guide for creating clear, organized API docs that developers will actually enjoy reading and using. Whether you’re setting request limits, handling versioning, or detailing objects, this template keeps everything simple and accessible.
+      Introducing “Structured API Documentation” – your go-to guide for creating clear, organized API docs that developers will actually enjoy reading and using. Whether you're setting request limits, handling versioning, or detailing objects, this template keeps everything simple and accessible.
 
       ✨ It's free and ready to streamline your API workflow! ✨
 
@@ -633,7 +612,7 @@ linkedin_chat_history = {
       content="""
       Hey folks!
 
-      I’m excited to share a valuable resource I’ve put together for anyone interested in diving into the open-source world. Whether you’re looking to contribute to open-source projects, master version control with Git, or streamline your workflow with GUI and command-line tools, this Notion page has got you covered!
+      I'm excited to share a valuable resource I've put together for anyone interested in diving into the open-source world. Whether you're looking to contribute to open-source projects, master version control with Git, or streamline your workflow with GUI and command-line tools, this Notion page has got you covered!
 
       🔹 Open Source Contributions: Find out how you can get involved and make a difference. 
       🔹 Version Control & Commands: Master the essentials of Git and version management. 
@@ -641,7 +620,7 @@ linkedin_chat_history = {
 
       Explore this hub to enhance your open-source journey and coding efficiency. 
 
-      Check it out and let’s grow together in the open-source community! 🌍💪
+      Check it out and let's grow together in the open-source community! 🌍💪
       https://lnkd.in/gGj8DyhB
 
       #OpenSource #VersionControl #Git #DevelopmentTools #Coding #TechCommunity #Notion #OpenSourceContributions
@@ -689,9 +668,9 @@ linkedin_chat_history = {
 
       Hey everyone! 🌟
 
-      I’m thrilled to share the Node Express Backend Template Using Prisma, crafted to streamline your backend development with Prisma ORM.
+      I'm thrilled to share the Node Express Backend Template Using Prisma, crafted to streamline your backend development with Prisma ORM.
 
-      Whether you’re a developer, student, or part of a team, this template is your gateway to building robust and scalable applications effortlessly.
+      Whether you're a developer, student, or part of a team, this template is your gateway to building robust and scalable applications effortlessly.
 
       What's Inside? 🎁
       - Seamless Prisma ORM Integration for efficient database management 🗃️
@@ -700,7 +679,7 @@ linkedin_chat_history = {
       - Well-Organized Code Structure to keep your project tidy 🗂️
       - Perfect for anyone looking to kickstart their backend projects with a solid foundation. 
 
-      Dive into the repo and let’s build something amazing together !!!
+      Dive into the repo and let's build something amazing together !!!
 
       Repo link is here : https://lnkd.in/gbQgujsj
 
@@ -722,18 +701,18 @@ linkedin_chat_history = {
       content="""
       Hey friends! 🌟
 
-      I’m thrilled to share a new project that I’ve been working on! 🎉 I’ve just created a new GitHub repository: Node.js & Express.js Backend Template for Beginners! 🚀
+      I'm thrilled to share a new project that I've been working on! 🎉 I've just created a new GitHub repository: Node.js & Express.js Backend Template for Beginners! 🚀
 
-      This template is crafted specifically for those of you who are diving into backend development. It’s designed to help you get started with ease and confidence. Here’s what makes it stand out:
+      This template is crafted specifically for those of you who are diving into backend development. It's designed to help you get started with ease and confidence. Here's what makes it stand out:
 
       📖 Clear Documentation: Easy-to-follow instructions to get you up and running quickly.
       🛠️ Essential Tools: Everything you need to build scalable and efficient applications is right here.
       📚 Structured Foundation: A solid base to help you understand and implement best practices.
       🔧 Best Practices: Follow industry standards to write clean and maintainable code.
 
-      Whether you’re just starting out or looking to polish your skills, this repo is here to guide you every step of the way. Check it out, explore, and let me know your thoughts!
+      Whether you're just starting out or looking to polish your skills, this repo is here to guide you every step of the way. Check it out, explore, and let me know your thoughts!
 
-      If you find it helpful, don’t forget to ⭐️ star the repo and share it with others who might benefit from it!
+      If you find it helpful, don't forget to ⭐️ star the repo and share it with others who might benefit from it!
 
       Repo link is here : https://lnkd.in/gcDti_ZA
 
@@ -754,11 +733,11 @@ linkedin_chat_history = {
     ),
     ChatMessage(
       content="""
-      🎉 Hey, everyone! I’m excited to share something I’ve been working on—my new Node Express Backend Template for Intermediates GitHub repository! 🌟
+      🎉 Hey, everyone! I'm excited to share something I've been working on—my new Node Express Backend Template for Intermediates GitHub repository! 🌟
 
-      If you’re an intermediate learner with a basic understanding of backend development, this template is perfect for you! It’s packed with everything you need to streamline your project setup and follow best practices
+      If you're an intermediate learner with a basic understanding of backend development, this template is perfect for you! It's packed with everything you need to streamline your project setup and follow best practices
 
-      This template is designed to help you level up your backend projects with a solid, scalable structure. I’ve made sure to include detailed documentation to guide you along the way.
+      This template is designed to help you level up your backend projects with a solid, scalable structure. I've made sure to include detailed documentation to guide you along the way.
 
       What's Inside?
       - Pre-configured setup for Node.js with Express.js
@@ -767,11 +746,11 @@ linkedin_chat_history = {
       - Scalable and maintainable architecture
       - Detailed documentation to guide you through each step
 
-      But don’t worry, beginners—I haven’t forgotten about you! 😉 I’m working on another repository with more detailed documentation and beginner-friendly content. Stay tuned; it’s coming soon!
+      But don't worry, beginners—I haven't forgotten about you! 😉 I'm working on another repository with more detailed documentation and beginner-friendly content. Stay tuned; it's coming soon!
 
       Check out the Node Express Backend Template for Intermediates here: https://lnkd.in/eApX4Cw6
 
-      I hope this template helps you in your learning journey. Let’s keep building and growing together! 🚀
+      I hope this template helps you in your learning journey. Let's keep building and growing together! 🚀
 
       #BackendDevelopment #NodeJS #ExpressJS #Sequelize #OpenSource #WebDevelopment #LearningJourney #GitHub #CodeNewbie #Developers #TechCommunity
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
@@ -788,7 +767,7 @@ linkedin_chat_history = {
     ChatMessage(
       content="""🚀 Hey Developers! 🌟
 
-      Are you just starting out with Express.js and looking for a solid foundation to build your applications? 🤔 I’ve got something exciting for you!
+      Are you just starting out with Express.js and looking for a solid foundation to build your applications? 🤔 I've got something exciting for you!
 
       Introducing the ExpressJS API Boilerplate – a fully documented and beginner-friendly template to kickstart your Express.js projects. 🎉
 
@@ -802,9 +781,9 @@ linkedin_chat_history = {
 
       🔗 Link to the repo : https://lnkd.in/gXgBcWKK
 
-      Whether you’re a newbie or just need a reliable template, this boilerplate is here to help you get up and running with Express.js effortlessly. Dive in, explore, and start building amazing APIs with confidence! 🚀
+      Whether you're a newbie or just need a reliable template, this boilerplate is here to help you get up and running with Express.js effortlessly. Dive in, explore, and start building amazing APIs with confidence! 🚀
 
-      Feel free to ⭐️ this repo if you find it useful, and 🍴 fork it to customize and contribute. And if you’d like to support my work, check out the Sponsor Me section in the repo!
+      Feel free to ⭐️ this repo if you find it useful, and 🍴 fork it to customize and contribute. And if you'd like to support my work, check out the Sponsor Me section in the repo!
 
       Happy coding! 💻💡
 
@@ -824,7 +803,7 @@ linkedin_chat_history = {
       content="""
       🚀 Exciting News for Tech Freshers! 🚀
 
-      I’m thrilled to share my new “Entry-Level Tech Resume” template on Notion, designed specifically for tech students. This free template helps you organize your contact info, education, certifications, work experience, and projects in a professional format. It was incredibly helpful for me and even got filtered through resume filters!
+      I'm thrilled to share my new “Entry-Level Tech Resume” template on Notion, designed specifically for tech students. This free template helps you organize your contact info, education, certifications, work experience, and projects in a professional format. It was incredibly helpful for me and even got filtered through resume filters!
 
       Access the free template here 🔗 https://lnkd.in/gB3ebGgj
 
@@ -852,7 +831,7 @@ linkedin_chat_history = {
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     ),
   ],
-  "certificate_chat_history": [
+  "certificate": [
     ChatMessage(
       content="""
       Certificate Name: Introduction to Data Engineering on Azure
@@ -874,7 +853,7 @@ linkedin_chat_history = {
       🔹 Explored data processing and transformation using Azure services
       🔹 Gained insights into data security and compliance on the cloud
 
-      This journey has deepened my understanding of how data can be stored, processed, and managed effectively in a cloud environment. I’m excited to bring these skills into future projects! Hope this inspires others to start their own @MicrosoftLearn journey 🚀
+      This journey has deepened my understanding of how data can be stored, processed, and managed effectively in a cloud environment. I'm excited to bring these skills into future projects! Hope this inspires others to start their own @MicrosoftLearn journey 🚀
 
       #DataEngineering #MicrosoftAzure #CloudComputing #DataTransformation #LearningJourney
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
@@ -906,7 +885,7 @@ linkedin_chat_history = {
       🔹 Practiced creating full-stack applications and integrating databases
       🔹 Enhanced my problem-solving skills and gained a new perspective on backend programming
 
-      This certification has equipped me with the skills to build scalable and real-time server applications, and I’m excited to see where this knowledge takes me next! 💪
+      This certification has equipped me with the skills to build scalable and real-time server applications, and I'm excited to see where this knowledge takes me next! 💪
 
       #NodeJS #BackendDevelopment #WebSocket #MongoDB #JavaScript #Udemy
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
@@ -938,7 +917,7 @@ linkedin_chat_history = {
       ✅ Enhanced my understanding of managing databases and RESTful architecture
       ✅ Improved proficiency in building, testing, and debugging large web applications
 
-      This journey through the MERN stack has been invaluable, and I’m excited to continue developing powerful, scalable web applications! 🎉
+      This journey through the MERN stack has been invaluable, and I'm excited to continue developing powerful, scalable web applications! 🎉
 
       #MERNStack #FullStackDevelopment #JavaScript #ReactJS #WebDevelopment #Udemy
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
@@ -970,7 +949,7 @@ linkedin_chat_history = {
       ✨ Learned how to implement object-oriented design in JavaScript projects
       ✨ Gained the confidence to create interactive, data-driven applications
 
-      This course has been a game-changer, and I’m ready to dive into more challenging projects. Can’t wait to see where this knowledge leads! 🌐
+      This course has been a game-changer, and I'm ready to dive into more challenging projects. Can't wait to see where this knowledge leads! 🌐
 
       #JavaScript #WebDevelopment #FrontEndDevelopment #OOP #Udemy
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
@@ -990,7 +969,7 @@ linkedin_chat_history = {
       Issuing Authority: Udemy
       Certificate Link (optional): Certificate Link
 
-      Proud to share that I’ve completed the Responsive Website using HTML and CSS course on Udemy! This course covered the essentials of creating adaptable, responsive web layouts that provide a seamless user experience across devices.
+      Proud to share that I've completed the Responsive Website using HTML and CSS course on Udemy! This course covered the essentials of creating adaptable, responsive web layouts that provide a seamless user experience across devices.
 
       Course Highlights:
       🔹 Understanding HTML5 and CSS3 for building structure and styling
@@ -1002,13 +981,13 @@ linkedin_chat_history = {
       💡 Improved my understanding of layout structuring with CSS Grid and Flexbox
       💡 Acquired practical knowledge in front-end technologies for modern web development
 
-      I’m excited to continue refining my design skills and creating engaging, accessible web experiences. 💻
+      I'm excited to continue refining my design skills and creating engaging, accessible web experiences. 💻
 
       #ResponsiveDesign #CSS3 #HTML5 #FrontEndDevelopment #WebDesign #Udemy
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     )
   ],
-  "hackathon_chat_history": [
+  "hackathon": [
     ChatMessage(
       content="""
       Name: Hackz'24 - Ideathon
@@ -1027,9 +1006,9 @@ linkedin_chat_history = {
       content="""
       Hey folks!
 
-      I’m excited to share that we’ve officially submitted our solution for Round 1 of the Hackz'24 - Ideathon! hosted by CSEA_CEG 🎉 
+      I'm excited to share that we've officially submitted our solution for Round 1 of the Hackz'24 - Ideathon! hosted by CSEA_CEG 🎉 
 
-      It’s been a fantastic journey collaborating with my talented teammates – Harini S., Adithyan, and Sundhar Balamoorthy – who brought their creativity, dedication, and skills to bring our idea to life.
+      It's been a fantastic journey collaborating with my talented teammates – Harini S., Adithyan, and Sundhar Balamoorthy – who brought their creativity, dedication, and skills to bring our idea to life.
 
       Among the tracks, we chose fintech, believing it has vast potential to explore and innovate. After deep research, we identified a key problem in customer service within the financial world — where traditional chatbots with scripted responses often fall short in addressing complex customer needs, resulting in frustration and high operational costs.
 
@@ -1041,7 +1020,7 @@ linkedin_chat_history = {
       📈 Featuring a Learning Mode for continuous improvement
       🔒 Ensuring Real-Time Data Privacy and Security Compliance
 
-      The journey began with brainstorming ways to boost customer engagement, enhance user satisfaction, reduce the demand for traditional customer support, and elevate user experience. From diving into LLMs, AI frameworks, and customer service challenges to researching existing solutions, we worked through multiple iterations, encountered a few roadblocks, and ultimately crafted a solution we’re proud of. 
+      The journey began with brainstorming ways to boost customer engagement, enhance user satisfaction, reduce the demand for traditional customer support, and elevate user experience. From diving into LLMs, AI frameworks, and customer service challenges to researching existing solutions, we worked through multiple iterations, encountered a few roadblocks, and ultimately crafted a solution we're proud of. 
 
       With everything in place, we crafted a presentation, built a Figma prototype, and recorded an explanation video. After rounds of feedback and revisions, we wrapped it all up and submitted it! ✅
 
@@ -1068,13 +1047,13 @@ linkedin_chat_history = {
       content="""
       Hey friends! 🌟
 
-      I’m excited to share that we’ve officially submitted our solution for SIH 2024 ! 🎉 It’s been a fantastic journey working with my amazing teammates – Harini S, Raja S, Dinesh Kumar, Shazz Abdul Samed, and Himanesh Venkatesan – who brought their dedication and skills together to complete this idea solution.
+      I'm excited to share that we've officially submitted our solution for SIH 2024 ! 🎉 It's been a fantastic journey working with my amazing teammates – Harini S, Raja S, Dinesh Kumar, Shazz Abdul Samed, and Himanesh Venkatesan – who brought their dedication and skills together to complete this idea solution.
 
       We tackled the problem statement SIH1603 - Conversational Image Recognition Chatbot, provided by Bharat Electronics Limited (BEL). The challenge was to build an image recognition chatbot capable of detecting objects in images, having a contextual conversation about them, and generating grammatically correct responses based on the sender's messages. Quite the task, right?
 
       The journey began by filtering through various software problem statements that piqued our interest. After much discussion, we chose this one for its complexity, exciting use of emerging technologies, and overall challenge. 💡
 
-      From learning about image recognition, object detection, LLMs, and various AI frameworks, to researching existing solutions, we worked through multiple revisions, encountered some roadblocks, but ultimately crafted a solution we’re proud of. With everything in place, we worked on crafting a presentation and explanation video. After several rounds of feedback and revisions, we wrapped it up and hit submit! ✅
+      From learning about image recognition, object detection, LLMs, and various AI frameworks, to researching existing solutions, we worked through multiple revisions, encountered some roadblocks, but ultimately crafted a solution we're proud of. With everything in place, we worked on crafting a presentation and explanation video. After several rounds of feedback and revisions, we wrapped it up and hit submit! ✅
 
       Looking forward to seeing where this takes us! 🚀 
 
@@ -1082,7 +1061,7 @@ linkedin_chat_history = {
       """, role=ChatRole.ASSISTANT, name="Linkedin Writeup Assistant"
     )
   ],
-  "project_chat_history": [
+  "project": [
     ChatMessage(
       content="""
       Name: Techofes Backend API
@@ -1205,7 +1184,7 @@ linkedin_chat_history = {
     ),
     ChatMessage(
       content="""
-      'm thrilled to announce the completion of a project that I've been working on called Met-Social-Media-API! 🎉🚀 It's an API server for a real-time Social Media Handler project built using NodeJS, PostgreSQL, and Prisma ORM. If you're interested, you can check it out here: https://lnkd.in/gGvQpdub
+      I'm thrilled to announce the completion of a project that I've been working on called Met-Social-Media-API! 🎉🚀 It's an API server for a real-time Social Media Handler project built using NodeJS, PostgreSQL, and Prisma ORM. If you're interested, you can check it out here: https://lnkd.in/gGvQpdub
 
       This project comes with clear documentation and a predefined Postman collection, making it incredibly easy to understand and use. 💻📚 We've put a lot of effort into making it user-friendly and accessible to developers of all levels.
 
@@ -1224,12 +1203,15 @@ linkedin_chat_history = {
 def get_linkedin_chat_history(history_type:str) -> List[ChatMessage]:
   data=[
     ChatMessage(
-        content="""You are 'Writeup Agent' a Linkedin post content generator. Create linkedin post with the user given details.""",
+        content="""You are 'Writeup Agent' a Linkedin post content generator. 
+        Create linkedin post with the user given details.""",
         role=ChatRole.SYSTEM,
         name="Writeup-Agent"
       )
-    ] + (linkedin_chat_history.get(history_type) or [])
-  return data
+    ] 
+  
+  # print(data)
+  return data + linkedin_chat_history[history_type]
 
 def update_chat_history(history_type:str, data:str):
   chat_history[history_type].append(ChatMessage(content=data, role=ChatRole.USER, name="Metta"))
