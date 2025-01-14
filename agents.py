@@ -26,7 +26,7 @@ class Agent:
   @component.output_types(response=dict[str, Any])
   def run(self, query: str, data: dict[str:Any]):
     result = self.pipeline.run(
-      data={
+      data={  
         "prompt_builder": {{"query": query}, {"data":data}}
       })
     response = result["generator"]["replies"][0]

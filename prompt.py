@@ -21,8 +21,7 @@ linkedin_prompts=[
         Include relevant hashtags to improve visibility and reach.
       
       By following this structure, you will help professionals effectively communicate their event experiences, foster meaningful connections, and inspire engagement with their posts.
-
-      Data:
+      
       {{data}}
       """
   },
@@ -48,7 +47,7 @@ linkedin_prompts=[
 
       By following this structure, you will ensure the LinkedIn post effectively communicates the blog's value while engaging a professional audience.
 
-      Data:
+      
       {{data}}
       """
   },
@@ -72,7 +71,7 @@ linkedin_prompts=[
         Include relevant hashtags to maximize reach and visibility.
         This structure helps professionals effectively communicate their experiences, express gratitude, and inspire engagement with their LinkedIn network.
 
-      Data:
+      
       {{data}}
       """
   },
@@ -100,7 +99,7 @@ linkedin_prompts=[
         Include relevant hashtags to amplify reach and visibility.
         This structure ensures the certification post is impactful, relatable, and celebrates the professional's hard work and achievement.
 
-      Data:
+      
       {{data}}
       """
   },
@@ -128,7 +127,7 @@ linkedin_prompts=[
         Incorporate relevant hashtags to increase visibility and engagement.
         This structure ensures your post is clear, compelling, and resonates with the LinkedIn audience while showcasing the value of your work.
 
-      Data:
+      
       {{data}}
       """
   },
@@ -161,7 +160,7 @@ linkedin_prompts=[
         Incorporate relevant hashtags to increase visibility and connect with the hackathon community.
         This structure ensures your post captures the spirit of innovation, collaboration, and growth that hackathons embody, making it both relatable and impactful for your LinkedIn audience.
 
-      Data:
+      
       {{data}}
       """
   },
@@ -189,7 +188,7 @@ linkedin_prompts=[
         Hashtags can be included to boost reach and increase visibility.
         By using this structure, your post will effectively convey the purpose of your project experience while encouraging engagement and connection with your LinkedIn network.
 
-      Data:
+      
       {{data}}
       """
   }
