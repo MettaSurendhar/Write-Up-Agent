@@ -49,8 +49,6 @@ class ChatAgent:
   def run(self, data: str, prompt: ChatMessage ):
 
     messages= self.chat_history + [prompt]
-    # print(messages)
-    # print("-"*50)
     result = self.pipeline.run(
       data={
         "prompt_builder": {
@@ -58,7 +56,6 @@ class ChatAgent:
           "template": messages
           }
       })
-    # print(result)
     response = result["generator"]["replies"][0].content
 
     return {"response":response}

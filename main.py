@@ -53,12 +53,10 @@ def chat_response_generator(type: str, data: str):
 
 
 ## Example use : 
-data=""" Blog Title: From Newbie to Web Developer
-Blog: Starting out in web development can feel a bit like navigating a maze with no map. In my latest blog post, I share how I went from a complete newbie to building my own websites. I talk about the struggles I faced, the resources that helped me, and some tips that might make your path a bit smoother.
-Blog Link: Metta’s Tech Bytes 🚀"""
+data=" Blog Title: From Newbie to Web Developer /n Blog: Starting out in web development can feel a bit like navigating a maze with no map. In my latest blog post, I share how I went from a complete newbie to building my own websites. I talk about the struggles I faced, the resources that helped me, and some tips that might make your path a bit smoother. /n Blog Link: Metta’s Tech Bytes 🚀"
 response = chat_response_generator("blog",data)
 # response = chat_response_generator("bank","account","how can i use my account balance usefully ?", data)
 # response = response_generator("recommendations_budget","how can i use my account balance usefully ?", data)
-# print(response)
+print(response)
 
 
