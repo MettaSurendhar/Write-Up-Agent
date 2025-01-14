@@ -271,14 +271,9 @@ linkedin_chat_history = {
 }
 
 def get_linkedin_chat_history(history_type:str) -> List[ChatMessage]:
-  data=[
-    ChatMessage(
-        content="You are 'Writeup Agent' a Linkedin post content generator.  /n Create linkedin post with the user given details.",
-        role=ChatRole.SYSTEM,
-        name="Writeup-Agent"
-      )
-    ] 
-  return data + linkedin_chat_history[history_type]
+  return linkedin_chat_history[history_type]
 
-def update_chat_history(history_type:str, data:str):
-  chat_history[history_type].append(ChatMessage(content=data, role=ChatRole.USER, name="Metta"))
+def update_linkedin_chat_history(history_type:str, data:str, response:str):
+  global linkedin_chat_history
+  linkedin_chat_history[history_type].append(ChatMessage.from_user(data))
+  linkedin_chat_history[history_type].append(ChatMessage.from_assistant(response))
