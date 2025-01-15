@@ -94,6 +94,12 @@ linkedin_chat_history = {
     ),
     ChatMessage.from_assistant(
       "Hey folks, /n  /n Had an amazing time at the Grafana and Friends Meetup in Chennai, where I attended a standout session by MANOJKUMAR G, an SRE from IBM. His insights on how IBM tackles observability challenges using Grafana and AI were truly eye-opening /n  /n From missing logs in centralized systems to alert fatigue, Manojkumar shared practical solutions IBM has implemented to keep their systems running smoothly. It was fascinating to see how they're leveraging AI and unified dashboards to streamline diagnostics and reduce noise in alerts. /n  /n This session has definitely deepened my interest in observability, and I'm excited to explore more advanced tools like the #LGTM stack and Cribl in the coming weeks. /n  /n If you're curious about how IBM is pushing the boundaries of system monitoring, I've shared a detailed blog with all the insights. /n  /n Check it out! 👉 https://lnkd.in/gJT2kc35 /n  /n #IBM #Observability #Grafana #TechInsights #AI"
+    ),
+    ChatMessage.from_user(
+      "Blog Title:Hackathon Highlights: Story from Hackz 2024 Finalist,/nBlog:I had the honor of leading my team in Hackz 2024, an intense 24-hour hackathon that stretched from 10 AM on November 23rd to 10 AM on November 24th. The event was buzzing with energy, creativity, and an overwhelming sense of purpose. With over 1000 teams registered, 500+ submitted their ideas, and only 20 were selected for the final round, our journey to the top felt nothing short of incredible./nWhat made it even more special? We were the only team from the College of Engineering, Guindy (CEG) to make it this far—a proud moment for all of us./nDespite the hackathon being hosted at our college, many teams from CEG had submitted ideas, but we were the sole representatives from our campus in the finals. Representing CEG among teams from diverse colleges and states was both a responsibility and a privilege./nThe Challenge: Building Financial Inclusion for Seniors Our problem statement was as compelling as it was challenging:/nDevelop an AI-powered financial inclusion platform designed for elderly individuals to simplify digital banking and financial planning. The platform should support voice commands, provide timely alerts for financial milestones, and offer tailored scam protection. By addressing digital literacy challenges, this solution aims to enhance independence and promote safe, accessible engagement with financial services for seniors./nWhen we read this, we knew this was more than just a technical challenge; it was an opportunity to create a meaningful impact. With the rise in digital banking and scams targeting vulnerable populations, creating a tool to empower the elderly felt deeply significant./nOur Solution: A Fintech Platform for Empowering the Elderly After a whirlwind of brainstorming, designing, and coding, we presented our prototype, packed with features designed specifically for seniors:/n✔️ Voice Commands: For intuitive, hands-free interactions—perfect for users unfamiliar with complex interfaces. ✔️ AI Chat Assistant: A personalized guide to help with financial queries and planning. ✔️ Scam Protection Education: To safeguard users against fraud and teach them to spot red flags. ✔️ Expense, Savings, and Investment Insights: Tailored recommendations to support better financial management. ✔️ Ease of Use: Every feature was designed with accessibility and simplicity in mind to bridge the digital literacy gap./nMy Role as Team Lead: A Learning Curve As the team lead, I had the responsibility of steering our efforts. Coordinating a team in such a high-pressure environment was both thrilling and demanding. I learned the importance of quick decision-making, fostering collaboration, and staying calm under pressure./nI’m incredibly grateful to my teammates—Harini S., Sundar Balamoorthy, and Adhithya—for their dedication and hard work. Sundar and Adhithya were new to hackathons and development, but they stepped up brilliantly, proving that a willingness to learn and contribute matters more than experience. I hope this journey encourages them to take part in more hackathons./nHackz 2024 was no ordinary hackathon. It brought together diverse minds from across states, creating a vibrant melting pot of ideas and innovation. The energy in the room as we worked through the night, fueled by adrenaline (and coffee!), was unlike anything else./nWe worked tirelessly for 24 hours, juggling ideas, implementing features, and debugging issues, but it was all worth it. By the end, we had a working prototype—a tangible result of our collaboration and effort./nWhile we didn’t win, being among the top 20 teams out of 500+ submissions was a milestone we cherished./nI want to express my heartfelt gratitude to:/nNavaneethan, our mentor, for his unwavering support and guidance. His encouragement kept us motivated till the very end. Navaneethan, I’m sorry we couldn’t bring home a trophy, but I’ve learned so much from you, and your insights will stay with me as I take on future projects./nCSEA for organizing such a well-structured and supportive event. From managing logistics to ensuring participants were cared for, they truly went above and beyond./nTemenos for sponsoring Hackz 2024 and fostering innovation among young developers./nTakeaways and Reflections Hackz 2024 wasn’t just about creating a product; it was a journey of growth and discovery. Here’s what I’m taking away:/n🌟 Leadership Lessons: Leading a team under a tight deadline taught me how to manage people, tasks, and time effectively./n🌟 Problem-Solving Skills: Tackling real-world challenges pushed me to think creatively and practically./n🌟 Understanding Expectations: Getting feedback from judges and mentors helped me understand what it takes to impress industry experts./nI also realized that mistakes are stepping stones to growth. Each bug we fixed, each feature we struggled to implement, and every moment of doubt taught me something valuable./nHackz 2024 has left me inspired and more determined than ever to create impactful tech solutions. The journey doesn’t end here; it’s just the beginning. I plan to build on these experiences, improve my skills, and continue pushing boundaries./nTo anyone considering participating in a hackathon: go for it! You’ll leave with more than just technical skills—you’ll gain memories, friendships, and a sense of achievement that’s hard to match./nOnce again, thank you to everyone who made this journey unforgettable—my team, mentor, organizers, and sponsors. Here’s to many more hackathons and challenges ahead! 💪 ,/nBlog Link:https://mettasurendhar.hashnode.dev/hackathon-highlights-story-from-hackz-finalist"
+    ),
+    ChatMessage.from_assistant(
+      "⚡️ Hackathon Highlights: My Hackz 2024 Journey! ⚡️/nI'm thrilled to share my experience leading my team to the finals of Hackz 2024, a grueling but incredibly rewarding 24-hour hackathon! 🎉 We were one of only 20 teams selected from over 500 submissions, and the only team from the College of Engineering, Guindy (CEG) to make it to the final round! Representing CEG on a state-wide stage was an incredible honor./nOur challenge? To build an AI-powered financial inclusion platform for seniors. This wasn't just about coding; it was about creating a meaningful solution to address the digital literacy gap and protect vulnerable populations from financial scams. We developed a platform with voice commands, an AI chat assistant, scam protection education, and personalized financial insights./nAs team lead, I learned invaluable lessons in leadership, problem-solving, and navigating high-pressure situations. Huge thanks to my amazing teammates, Harini, Sundar, and Adhithya, for their dedication and hard work! We didn't win, but reaching the finals was a huge achievement./nThis experience taught me the importance of teamwork, quick decision-making, and perseverance. I'm incredibly grateful for the support of our mentor, Navaneethan, the organizers at CSEA, and our sponsors at Temenos./nWant to learn more about our project, the challenges we faced, and the lessons we learned? Check out my full blog post here: https://mettasurendhar.hashnode.dev/hackathon-highlights-story-from-hackz-finalist/n#Hackathon #Hackz2024 #Fintech #AI #Leadership #Teamwork #CEG #ProblemSolving #Innovation #SoftwareDevelopment #Tech"
     )
   ],
   "experience": [
@@ -270,8 +276,959 @@ linkedin_chat_history = {
   ]
 }
 
+twitter_chat_history= {
+  "event": [
+    ChatMessage.from_user(
+      """
+      Event Title: Cloud Native Computing Foundation (CNCF) Chennai - Oct 2024 Meetup
+      Event Details: The meetup included insightful talks such as "Preventing Lateral Movement Attacks on Cloud Services and Resources" by Midhun NS & Dhamupravin S, and "What’s Next in Kubernetes 2025?" by Ganesh Kumar Kasiviswanathan, covering topics like KubeVirt, Kubeflow, and Compact Edge.
+      Thanks Detail: Huge thanks to Manikandan Krishnamurthy, Vijayabharathi Karuppasamy, Padmanaban Solaimalai, and YuniQ for organizing the event.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: Had an amazing time at the Cloud Native Computing Foundation (CNCF) Chennai - Oct 2024 Meetup yesterday! 🙌 It was packed with incredible talks on #CloudSecurity and #Kubernetes. Here are a few highlights! 🧵👇
+
+      tweet: 💡 Talk 1: "Preventing Lateral Movement Attacks on Cloud Services and Resources" by Midhun NS & Dhamupravin S. Covered the serious risk of attackers moving undetected across cloud infrastructure. Essential tips for securing #CloudEnvironments! 🔒 #CloudNative
+
+      tweet: 💡 Talk 2: "What’s Next in Kubernetes 2025?" by Ganesh Kumar Kasiviswanathan. Insights on:
+      - KubeVirt for VMs alongside containers
+      - Kubeflow for AI-powered apps
+      - Compact Edge for optimized edge computing
+      Exciting future for #Kubernetes! 🚀
+
+      tweet: Huge thanks to Manikandan Krishnamurthy, Vijayabharathi Karuppasamy, Padmanaban Solaimalai, and YuniQ for making this event a success! 🙏 Plus, taking home some cool swag (Kubernetes socks!) 🧦💙 #CNCFMeetup #TechCommunity
+      """
+    ),
+    ChatMessage.from_usre(
+      """
+      Event Title: Grafana Labs & Friends Chennai Meetup
+      Event Details: Sessions included "Performance Testing Your Observability Stack - K6 to Your Rescue" by Chandra Mohan Dhanasekaran, "Our Grafana Story" by Manojkumar G, and "Leveraging OpenTelemetry for Observability" by Selvaraj Kuppusamy, showcasing advancements in observability, performance testing, and OpenTelemetry integration.
+      Thanks Detail: Big thanks to Rishi Agrawal for hosting the quiz, Achanandhi M, and Surbhi Gupta for organizing the event.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: Hey friends! 👋 Just attended the "Grafana Labs & Friends Chennai Meetup" and it was packed with insights on observability and performance testing! Here’s a quick recap of my favorite sessions 🧵👇 #Grafana #TechMeetup
+
+      tweet: 💡 Talk 1: "Performance Testing Your Observability Stack - K6 to Your Rescue" by Chandra Mohan Dhanasekaran. Introduced Grafana K6 for load testing, showing how it strengthens #Observability performance. #K6 #CloudArchitecture
+
+      tweet: 💡 Talk 2: "Our Grafana Story" by Manojkumar G. Shared real-world observability challenges and solutions with Grafana & AI. Can't wait to dive deeper into these insights! Planning to write a blog about it soon. #GrafanaLabs #AI
+
+      tweet: 💡 Talk 3: "Leveraging OpenTelemetry for Observability" by Selvaraj Kuppusamy. Highlighted how OTEL enhances app performance in DevOps. A great demo on integrating OTEL with observability strategies! #OpenTelemetry #DevOps
+
+      tweet: Big shoutout to Rishi Agrawal for hosting an engaging Grafana and k6 quiz - congrats to the winner on the JetBrains license! 🎉 And thanks to Achanandhi M & Surbhi Gupta for a great event! 🚀 #TechCommunity #GrafanaSwag
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Event Title: Gen AI Exchange Hackathon Roadshow - Chennai
+      Event Details: The event began with a recap of Google I/O and updates on Google Gemini AI in AI Studio, followed by an introduction to the Gen AI Exchange Hackathon. Highlights included a talk by Rahul Ganapathy on AI for real-world solutions and startups.
+      Thanks Detail: Special thanks to Devfolio for organizing the event.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🌟 Had an amazing experience at the Gen AI Exchange Hackathon Roadshow in Chennai! 🌟 Packed with valuable insights on the future of #GenerativeAI, here’s a quick recap 🧵👇 #GoogleAI #GeminiAI #AIHackathon
+
+      tweet: The session kicked off with a recap of Google I/O, followed by updates on #GoogleGeminiAI and its capabilities in AI Studio. Impressive advancements for anyone interested in #AIInnovation! 🤖 #GoogleIO
+
+      tweet: Highlight: We got the inside scoop on the Gen AI Exchange Hackathon - from team formation to the perks for winners. Exciting incentives for solving real-world business problems with #GenAI! 🏆 #Hackathon2024
+
+      tweet: Inspiring talk by Rahul Ganapathy, Co-founder & CEO of Atsuya Technologies. Shared insights on using #AI for real-world solutions and the power of #Startups. Motivational Q&A wrapped up the event!
+
+      tweet: Big thanks to Devfolio for organizing! Interested in using Generative AI for real business challenges? Check out the hackathon here: [Link] #AIApplications #TechCommunity #GenerativeAI #Devfolio
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Event Title: Cloud Native Chennai - Aug 2024 Meetup
+      Event Details: Key sessions included "Cloud Native Containers: Myth, Truth, or Marketing?" by Ram Iyengar, "Mastering Cluster Management with Anthos Service Mesh" by Arunkumar M & Seetha, and a session on Firebase Genkit by Ashutosh S. Bhakare. Topics covered containerization, service mesh, and AI integration in apps.
+      Thanks Detail: Thanks to CNCF Chennai and Vijayabharathi Karuppasamy for organizing the meetup.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🌟 Cloud Native Chennai - Aug 2024 Meetup Recap 🌟 Had a fantastic time exploring cloud technology innovations! Here are my highlights from the event 🧵👇 #CloudNative #TechMeetup #CloudComputing
+
+      tweet: 🔹 Ram Iyengar shared "Cloud Native Containers: Myth, Truth, or Marketing?" Covered OCI standards, tools like buildkit & podman, and why Docker stands out. Fascinating insights! 🌐 #Containers #CloudTechnology
+
+      tweet: 🔹 Arunkumar M & Seetha from Presidio spoke on "Mastering Cluster Management with Anthos Service Mesh," focusing on #ServiceMesh for managing microservices. #AnthosServiceMesh #Microservices
+
+      tweet: 🔹 Ashutosh S. Bhakare from #GDE introduced Firebase Genkit - a powerful tool for AI in web & mobile apps. Can't wait to try this in projects! 🔥 #Firebase #AIIntegration
+
+      tweet: Big thanks to CNCF Chennai and Vijayabharathi Karuppasamy for organizing such an insightful meetup! Looking forward to the next one! 🙌 #CNCF #TechCommunity
+      """
+    )
+  ],
+  "blog": [
+    ChatMessage.from_user(
+      """
+      Blog Title: Starting Out in Web Development
+      Blog: This blog covers my journey from a beginner to building my own websites. It discusses the challenges I faced, the resources I used, and the persistence that made the difference. I also share tips and advice for those starting out.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Starting out in web development can be a challenge, but it’s also incredibly rewarding! Here’s how I went from a newbie to building my own websites. 🚀
+
+      tweet:  🌐 When I started, it felt like navigating a maze without a map. I began my journey in the second semester of my first year and honestly, I felt pretty lost at times. 😅 #WebDevelopment
+
+      tweet:  💡 The resources I used and the struggles I faced shaped my path. I found that persistence, a growth mindset, and a love for learning made all the difference. #TechJourney #Coding
+
+      tweet:  🤔 Want to hear about my full journey and tips that helped me? I shared my story and some helpful advice in my latest blog post. #CodingJourney #WebDevTips
+
+      tweet:  💬 If you’re starting out, don’t hesitate to reach out with questions. Let’s learn and grow together! Check out my story here: [Link] #TechCommunity #WebDevelopment
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: Improving CSS Skills by Mimicking Real-World Websites
+      Blog: This blog shares how I improved my CSS skills by creating modern UI and responsive websites, mimicking real-world projects. Key concepts like flexbox and grid layouts are covered, along with tips for CSS beginners.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Learning CSS can be SO much fun, especially as a beginner. Here’s how I improved my skills by mimicking real-world websites! 🎨✨
+
+      tweet:  🎨 I started by creating modern UI and responsive websites. Mimicking projects really helped me refine my CSS abilities. Small steps, big improvements! #CSS #FrontendDevelopment
+
+      tweet:  💡 CSS isn’t just about colors and fonts; it's about layout, design, and responsiveness. Every project taught me something new, from flexbox to grid layouts. #WebDesign #ResponsiveDesign
+
+      tweet:  🤔 Want to improve your CSS too? I’ve written a blog on how these projects helped me and the key concepts I learned. #LearnToCode #WebDevProjects
+
+      tweet:  📚 Check out my full blog here: [Link] Let’s inspire each other! 💬 #CSS #TechCommunity #WebDev
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: Getting Started with Open Source Contributions
+      Blog: This blog details my open-source journey, from joining communities to contributing to beginner-friendly repositories. It’s a guide for those new to open source, with tips on how to get started.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Excited to share my open-source journey! If you’re new like me, here’s how you can start contributing. 💻✨
+
+      tweet:  🌟 I dove into open source and discovered a community full of innovation. My journey started with joining mailing lists and IRC channels. #OpenSource #TechCommunity
+
+      tweet:  💡 There are tons of beginner-friendly repositories out there, and contributing to them is a great way to start. Everyone has something to offer! #NewbieContributor #CodingJourney
+
+      tweet:  📚 Want to know more about how I got started and how you can too? Check out my full article here: [Link] #TechTips #Programming
+
+      tweet:  🤝 Let’s make a difference in the open-source community together! #DeveloperCommunity #Innovation
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: From FreeBSD Jail to Docker: The Evolution of Container Technology
+      Blog: This blog explores the journey of container technology, its rise with Docker, and its standardization through the Open Container Initiative. It also delves into how containerization revolutionized application deployment.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Ever wondered how container technology became such a game-changer? 🚀 Here's a look at the journey—from FreeBSD Jail to Docker and beyond.
+
+      tweet:  🌐 Containers started out as a simple way to isolate applications. Fast forward to Docker, and suddenly, we had a revolution in how we build and deploy software. #Containerization
+
+      tweet:  💡 Docker made containerization mainstream, making it easier than ever to create, deploy, and scale applications. #Docker #DevOps
+
+      tweet:  🌍 The Open Container Initiative (OCI) standardized containers, ensuring portability across platforms. This is crucial for modern cloud-native apps. #CloudNative #Kubernetes
+
+      tweet:  📚 Want to dive deeper into this journey? I wrote a blog exploring the evolution of containers. Check it out here: [Link] #TechInnovation #SoftwareDevelopment
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: Key Insights from the CNCF Chennai Meetup
+      Blog: This blog highlights sessions from the CNCF Chennai Meetup, including Ram Iyengar’s talk on cloud-native containers and secure alternatives like Podman. It discusses tools like Buildah and Kaniko and their impact on containerization.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Attended the CNCF Chennai Meetup and learned a ton about cloud-native technologies! Here are the highlights from Ram Iyengar’s session on container tech. 🌟
+
+      tweet:  🚀 Ram Iyengar from Cloud Foundry Foundation gave an amazing talk on "Cloud Native Containers: Myth, Truth, or Marketing?" He dissected the real value of containers. #CNCF #Containerization
+
+      tweet:  💡 The rise of Docker, and why Podman is gaining popularity as a secure alternative, was a key takeaway. #Podman #Docker #DevOps
+
+      tweet:  📚 I dove deeper into how tools like Buildah and Kaniko are reshaping container builds. Want to learn more? Check out my blog here: [Link] #TechCommunity #CNCFChennai
+
+      tweet:  🤝 Let’s continue this conversation—how are you using containers in your workflows? #Containers #CloudNative
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: Enhancing Security with Rootless Containers
+      Blog: This blog explains the concept of rootless containers and their importance in improving system security. It covers tools like Podman and their role in creating a safer infrastructure.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Rootless containers: the game-changer for container security! Here’s why you should care about running containers without root privileges. 🔒
+
+      tweet:  🚨 Running containers with root privileges can expose your system to huge risks. That’s where rootless containers come in. #ContainerSecurity #RootlessContainers
+
+      tweet:  🛡️ Tools like Podman make rootless containers the default, offering a safer, more secure alternative to Docker. #Podman #Security
+
+      tweet:  💡 I’ve written a blog detailing what rootless containers are, how they work, and why they’re crucial for secure infrastructure. Check it out: [Link] #DevOps #CyberSecurity
+
+      tweet:  🚀 If you’re serious about securing your systems, rootless containers are a must! #CloudSecurity #Infrastructure
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: Unlocking Observability: Tools and Techniques
+      Blog: This blog introduces observability, its three pillars (logs, metrics, and traces), and tools like Grafana, Prometheus, and Cribl. It emphasizes optimizing system performance through effective monitoring and insights.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Observability is the key to smooth system operations. Want to learn how to take your systems to the next level? Let’s dive in! 🔍
+
+      tweet:  ✨ Observability isn’t just about monitoring; it’s about truly understanding how your system is performing and reacting. #Observability #Monitoring
+
+      tweet:  💡 There are three pillars of observability: Logs, Metrics, and Traces. They help track down issues, measure performance, and monitor request paths. #Logs #Metrics #Traces
+
+      tweet:  🛠️ I’ve used Grafana, Prometheus, and Cribl to optimize system performance. Check out my blog where I share my experiences with these tools: [Link] #Grafana #Prometheus #Cribl
+
+      tweet:  🚀 Let’s unlock the power of observability together! #DevOps #TechJourney #DataDriven
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: Transforming Observability with Grafana
+      Blog: This blog focuses on using Grafana for monitoring and visualization, with tips for setting up custom alerts and analyzing system data. It emphasizes Grafana’s power in transforming complex data into actionable insights.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 I’ve been diving deep into Grafana, and it’s transformed my approach to observability! 🚀 Here’s how this tool has elevated my monitoring game. 
+
+      tweet:  🌟 Grafana isn’t just a dashboard; it’s a visual powerhouse for transforming complex data into actionable insights. #Grafana #DataVisualization
+
+      tweet:  📊 Over the past few months, I’ve set up custom alerts, explored analytics, and used Grafana for deep system insights. #SysAdmin #Monitoring
+
+      tweet:  💡 Want to learn how Grafana can improve your observability? Check out my blog where I share my experiences and tips: [Link] #TechJourney #DevOps
+
+      tweet:  🚀 Ready to level up your observability game? Let’s dive into Grafana! #Analytics #DashboardDesign
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: Setting Up Cribl and Grafana for Observability
+      Blog: This blog provides a step-by-step guide to using Cribl and Grafana for data collection, processing, and visualization. It’s a comprehensive resource for building monitoring dashboards.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Excited to share my guide on setting up Cribl and Grafana for data collection, processing, and visualization! 📊 If you want to dive into observability, this one's for you. 
+
+      tweet:  🔧 Cribl Edge, Cribl Stream, and Grafana make an incredible combo for real-time monitoring. Whether you’re starting out or refining your setup, this guide has you covered. #Observability #Grafana #Cribl
+
+      tweet:  💡 I break down the entire process, step by step. From collecting system metrics to visualizing them in Grafana—everything you need to know. #DataCollection #DataVisualization
+
+      tweet: 📚 Curious? Dive into the full guide here: [Link] and start building your own monitoring dashboard today! #TechLearning #DevOps
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Blog Title: IBM’s Use of Grafana and AI for Observability
+      Blog: This blog discusses insights from the Grafana and Friends Meetup in Chennai, highlighting how IBM leverages AI with Grafana for reducing alert fatigue and streamlining diagnostics.
+      Blog Link: No link
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🧵 Had an amazing session at the Grafana and Friends Meetup in Chennai, where MANOJKUMAR G from IBM shared insights on how they use Grafana and AI for observability. #IBM #Grafana
+
+      tweet:  🌟 IBM leverages Grafana to tackle observability challenges, using AI to reduce alert fatigue and improve diagnostics. #TechInsights #Observability
+
+      tweet:  💡 Manojkumar discussed how unified dashboards and AI-driven insights streamline system monitoring. It was truly eye-opening! #AI #TechInnovation
+
+      tweet:  📚 Want to learn more? I’ve written a detailed blog on how IBM is transforming system monitoring with Grafana and AI: [Link] #AI #Observability
+      """
+    )
+  ],
+  "experience":[
+    ChatMessage.from_user(
+      """
+      Detail: Honored to receive a Letter of Appreciation for serving as General Secretary of the Student Association & Arts Society (SAAS) at CEG for 2023-2024. Worked with 25 team members across 9 domains, making campus life engaging and memorable. Represented student voices to the administration, co-organized events like Utopia and Techofes, and executed projects with creativity and teamwork.
+      Preference: Gratitude → Highlights → Summary
+      Gratitude: Thankful to the SAAS team and all supporters for their encouragement and collaboration.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🎉 I’m incredibly honored to share that I’ve received a Letter of Appreciation for my role as General Secretary of the Student Association & Arts Society (SAAS) at CEG for the 2023-2024 academic year! 🌟 
+
+      tweet: This journey was all about teamwork. I had the privilege of working with 25 amazing members across 9 domains. Together, we made campus life more engaging & memorable. 💫
+
+      tweet: Some key highlights from my time:
+      💠 Representing student voices to the administration
+      💠 Co-organizing #Techofes, South India’s largest cultural fest with concerts, workshops, and more 🎶
+
+      tweet: 🎭 Organizing events like #Utopia and #Techofes was an unforgettable experience. From brainstorming to executing, we truly created something special for the students. 💥
+
+      tweet: I’m incredibly grateful to my SAAS team and everyone who supported me along the way. It's been a learning and growing experience I will always cherish. 🚀
+
+      tweet:  #Leadership #StudentLife #CEG #AnnaUniversity #Teamwork #Gratitude #SAAS24
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Detail: Dived into Grafana, Cribl, and observability. Enrolled in a webinar to deepen knowledge and explore real-world applications of observability tools.
+      Preference: Summary → Gratitude → Highlights
+      Gratitude: Grateful for the opportunity to learn and grow through exciting new technologies and insights.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🌟 Exciting learning ahead! I’ve recently dived into Grafana, Cribl, and observability, and it’s been a fantastic experience. So much to explore, and I'm loving every minute of it. 🚀
+
+      tweet: 📚 To deepen my knowledge, I’ve signed up for an upcoming webinar. I’m looking forward to expanding my skills, learning new insights, and applying them in real-world projects. 💡
+
+      tweet: The world of observability is exciting, and I’m just getting started! Can’t wait to share what I learn along the way. 🌐
+
+      tweet:  #LearningJourney #Grafana #Cribl #Observability #Webinar #ContinuousLearning
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Detail: Secured a hybrid internship at Invisibl Cloud after completing tasks and interviews. Excited to work on real-world projects and enhance skills.
+      Preference: Gratitude → Summary → Highlights
+      Gratitude: Thankful to Harish Ganesan, CEO of Invisibl Cloud, for the opportunity to contribute and learn.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🌥️ Big news! I’ve been offered a hybrid internship at Invisibl Cloud! 💫
+
+      tweet: The journey to this point included a task, interview call, and HR interview. I’m excited to contribute to real-world projects and gain hands-on experience. 🎯
+
+      tweet: A huge thank you to Harish Ganesan, CEO of Invisibl Cloud, for this incredible opportunity. I can’t wait to get started! 🚀
+
+      tweet: #Internship #Opportunity #Learning #Grateful #InvisibleClouds
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Detail: Campaigning for SAAS elections in August, addressing student queries, and organizing large-scale events like Utopia and Techofes. Took part in multiple domains, including Marketing, Technical Design, and HR, and gained significant teamwork and leadership experience.
+      Preference: Highlights → Summary → Gratitude
+      Gratitude: Grateful for the trust of class representatives, the collaboration of team members, and the support of peers throughout this journey.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🌟 Excited to share my journey as General Secretary of the Student Association of Arts Society (SAAS) at CEG, Anna University, Chennai! 💫
+
+      tweet: Back in August, I campaigned for elections alongside my fellow candidates. We worked tirelessly to express our dedication & earned the trust of class representatives. 🙌
+
+      tweet: After being elected, we started addressing student queries and organizing major events like Utopia, a 3-day cultural fest featuring 25+ events! 🎉
+
+      tweet: We also organized Techofes, a grand 4-day fest filled with movie nights, workshops, DJ performances, and more. From securing sponsorships to running events, it was a whirlwind! 💥
+
+      tweet: 💼 I contributed across multiple domains like Marketing, Technical Design, HR, and more. Techofes taught me a lot about teamwork, problem-solving, and leadership.
+
+      tweet: #Leadership #StudentLife #CEG #AnnaUniversity #SAAS #Teamwork #Techofes
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Detail: Contributions of the development team towards the Techofes website, Micro Event site, and mobile app. Recognized the efforts of various team members for their roles in design, development, deployment, and mentoring.
+      Preference: Gratitude → Highlights → Summary
+      Gratitude: Expressed heartfelt thanks to Raja S, VIMALESH C T, Aravindkumar M, Varunkumar R, Deepan B, Kamalesh N, Prasanna Kumar, Rajesh A, Agilan B, and mentor Praveen Kumar for their invaluable contributions.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🙏 A huge shoutout to the amazing team who contributed to the development of the Techofes website, Micro Event website, and the mobile app for SAAS CEG's Events domain! 🚀
+
+      tweet: Big thanks to Raja S, VIMALESH C T, Aravindkumar M, and Varunkumar R for laying the foundation of the Techofes website. Your efforts were essential! 💻
+
+      tweet: Special thanks to Deepan B, Kamalesh N, and Prasanna Kumar for their incredible work on the UI/UX redesign. Your work brought the site to life with stunning designs! 🎨
+
+      tweet: 🎉 Kudos to Rajesh A for building and deploying the mobile app that kept the Techofes backend running smoothly. Your work ensured everything was in sync!
+
+      tweet: Agilan B did an outstanding job on the Micro Event site, adapting to changes and executing flawlessly. 👏
+
+      tweet: A big thank you to Praveen Kumar for mentoring me throughout this journey and helping deploy and maintain the sites during Techofes. Your support was invaluable. 🙌
+
+      tweet: #Gratitude #Teamwork #Techofes #WebDevelopment #Community #CEG #SAAS #AnnaUniversity
+      """
+    ),
+  ],
+  "contribution":[
+    ChatMessage.from_user(
+      """
+      Details: Notion Template: Powering Through Long-Term Project Execution. A Notion template designed to help manage long-term projects with features such as assigning roles, setting objectives, tracking milestones, and breaking down tasks. It is free and suitable for both team leads and individual users.
+      Link: https://lnkd.in/gv9kAZ_g
+      Type of Contribution: Template
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🚀 New Notion Template Alert! 🚀
+
+      I’m excited to share my latest template: Powering Through Long-Term Project Execution! 
+
+      tweet: This template is designed to help you manage long-term projects with ease and efficiency. Whether you’re leading a team or working solo, it has you covered! 💼
+
+      tweet: Features include assigning roles, setting clear objectives, tracking milestones, and breaking down tasks—all to keep things organized and on track! ✨
+
+      tweet: Best part? It’s free and perfect for keeping your projects running smoothly from start to finish! 🔥
+
+      tweet: Check it out here: 🔗 https://lnkd.in/gv9kAZ_g
+
+      Let me know how it powers up your projects! 💪
+
+      #ProjectManagement #NotionTemplate #ProductivityBoost #FreeTemplate
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details:  Notion Template: Structured API Documentation. A Notion template aimed at simplifying API documentation. It includes sections for setting request limits, handling versioning, and creating clear, organized API docs.
+      Link: https://lnkd.in/gzuwXtpF
+      Type of Contribution: Template
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🚀 Hey folks, exciting news! I’ve just released a fresh Notion template to simplify API documentation! 😄
+
+      tweet: Introducing "Structured API Documentation"—your go-to guide for creating clear, organized docs that developers will actually enjoy reading. 📜
+
+      tweet: From setting request limits to handling versioning, this template keeps everything simple and accessible, ensuring your API docs are top-notch! ✨
+
+      tweet: Grab it for FREE here: 🔗 https://lnkd.in/gzuwXtpF
+
+      Let me know how it helps streamline your API workflow! 🙌
+
+      #APIDocumentation #NotionTemplate #TechTips #FreeTemplate
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details: Notion Page: Open-Source Contribution Guide. A comprehensive Notion resource for diving into open-source contributions, mastering Git, and optimizing workflows with tools. Includes tips for version control and GUI/command-line tools.
+      Link: https://lnkd.in/gGj8DyhB
+      Type of Contribution: Guide
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🚀 Hey folks! I’ve put together an awesome resource for anyone diving into the open-source world. 🌍
+
+      tweet: Whether you want to contribute to open-source projects, master Git, or optimize your workflow with tools, this Notion page has it all! 💻
+
+      tweet: 📚 Learn how to get involved with open-source contributions
+      📖 Master Git & version control
+      ⚙️ Explore the best GUI & command-line tools for development
+
+      tweet: Check it out here: 🔗 https://lnkd.in/gGj8DyhB
+
+      Let’s grow together in the open-source community! 🌱
+
+      #OpenSource #Git #DevelopmentTools #TechCommunity #Notion
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details: GitHub Repository: Metta’s Templates. Free, well-documented GitHub templates designed for quick project setup. Features structured documentation, learning resources, and easy setup.
+      Link: https://lnkd.in/gaCVRgwF
+      Type of Contribution: Repository
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🚀 Kickstart your next project with structured templates! 💡
+
+      I created “Metta’s Templates” – free, well-documented GitHub templates designed to get you started quickly. 🎯
+
+      tweet: These templates come with:
+      ✅ Structured documentation
+      ✅ Learning resources
+      ✅ Easy setup for faster development
+
+      tweet: Check out the templates here: 🔗 https://lnkd.in/gaCVRgwF
+
+      Level up your project foundation with Metta’s Templates! 🚀
+
+      #GitHubTemplates #OpenSource #WebDevelopment #SoftwareEngineering #TechTemplates
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details: GitHub Repository: Node Express Backend Template (Prisma ORM). A backend development template featuring Prisma ORM, Node.js, and Express.js. It includes database management, middleware for secure authentication, and a pre-configured setup.
+      Link: https://lnkd.in/gbQgujsj
+      Type of Contribution: Repository
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet: 🚀 Unlock the power of Prisma ORM with my new Node Express Backend Template! 🌟
+
+      tweet: This template streamlines your backend dev with Prisma ORM, featuring:
+      - Seamless integration for efficient database management 🗃️
+      - Pre-configured Node.js & Express.js setup 🛠️
+      - Essential middleware for secure authentication 🔐
+
+      tweet: Dive into the repo and start building amazing applications! 🎁
+
+      Repo link here: 🔗 https://lnkd.in/gbQgujsj
+
+      Happy coding! 🎉
+
+      #Prisma #NodeJS #BackendDevelopment #OpenSource #WebDevelopment #TechTemplates
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details: GitHub Repository: Node.js & Express.js Backend Template for Beginners. A beginner-friendly backend development template with clear documentation, essential tools, and a structured foundation for scalable applications.
+      Link: https://lnkd.in/gcDti_ZA
+      Type of Contribution: Repository
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet: 🚀 Hey friends! I’m excited to share a new GitHub repo: Node.js & Express.js Backend Template for Beginners! 🌟
+
+      tweet: This template is designed to help you get started with backend development. Here’s why you’ll love it:
+      📖 Clear Documentation
+      🛠️ Essential Tools for scalable apps
+      📚 Structured Foundation
+
+      tweet: Check it out, explore, and let me know your thoughts! 🌱
+
+      Repo link: 🔗 https://lnkd.in/gcDti_ZA
+
+      Happy coding! 💻✨
+
+      #NodeJS #ExpressJS #BackendDevelopment #OpenSource #TechForBeginners #WebDevelopment
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details: GitHub Repository: Node Express Backend Template for Intermediates. A template for intermediate learners with Sequelize ORM for database integration, scalable architecture, and detailed documentation.
+      Link: https://lnkd.in/eApX4Cw6
+      Type of Contribution: Repository
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet: 🎉 Hey developers! Excited to share my new Node Express Backend Template for Intermediates! 🚀
+
+      tweet: Perfect for intermediate learners, this template comes with:
+      - Pre-configured Node.js & Express.js setup
+      - Sequelize ORM for database integration
+      - Scalable & maintainable architecture
+
+      tweet: Detailed documentation will guide you through each step and help you level up your projects! 📚
+
+      4/ Check it out here: 🔗 https://lnkd.in/eApX4Cw6
+
+      Let’s keep building together! 💻
+
+      #BackendDevelopment #NodeJS #ExpressJS #Sequelize #OpenSource #WebDevelopment #LearningJourney
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details: GitHub Repository: Express.js API Boilerplate. A beginner-friendly API boilerplate with comprehensive documentation, modular structure, and ready-to-use test cases for reliable APIs.
+      Link: https://lnkd.in/gXgBcWKK
+      Type of Contribution: Repository
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet: 🚀 Hey developers! Starting out with Express.js? I’ve got a beginner-friendly API Boilerplate to kickstart your projects! 🌟
+
+      tweet: Why you’ll love it:
+      - Comprehensive documentation 📝
+      - Modular structure for scalability ⚙️
+      - Ready-to-use test cases for reliable APIs ✅
+
+      tweet: Get started with the repo here: 🔗 https://lnkd.in/gXgBcWKK
+
+      Fork it, customize it, and let’s build something amazing! 🚀
+
+      #ExpressJS #API #WebDevelopment #OpenSource #TechCommunity #Coding
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details: Notion Template: Entry-Level Tech Resume. A free resume template on Notion tailored for tech freshers, helping them organize contact info, education, certifications, work experience, and projects.
+      Link: https://lnkd.in/gB3ebGgj
+      Type of Contribution: Template
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet: 🚀 Exciting news for tech freshers! I’ve just released my “Entry-Level Tech Resume” template on Notion! 🎉
+
+      tweet: This free template is designed to help you organize your contact info, education, certifications, work experience, and projects—perfect for filtering through resume scanners! 🎯
+
+      tweet: Access the template here: 🔗 https://lnkd.in/gB3ebGgj
+
+      Make your resume stand out! ✨
+
+      #TechCareers #ResumeTemplate #JobSearch #TechStudents #ResumeTips #CareerGrowth
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Details: Roadmap: Full Stack Development Roadmap 2024. A roadmap for becoming a proficient full-stack developer in 2024, focusing on key skills, technologies, and trends.
+      Link: Not provided.
+      Type of Contribution: Roadmap
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet: 🚀 Excited to share the Full Stack Development roadmap for 2024! 🌟
+
+      tweet: The future of full-stack development is bright, and staying ahead is key. Here’s a roadmap with the key skills, technologies, and trends to focus on in 2024. 💻
+
+      tweet: Let’s dive in and pave the way to becoming top-notch full-stack developers! 🚀
+
+      #FullStackDevelopment #TechTrends2024 #RoadmapToSuccess #TechSkills #FullStackDeveloper
+      """
+    )
+  ],
+  "certification":[
+    ChatMessage.from_user(
+      """
+      Certificate Name: Introduction to Data Engineering on Azure
+      Details: This course covered the essentials of data engineering on Azure, including building data pipelines, managing data, and data transformation. Key takeaways include designing and implementing data storage solutions on Azure, data processing and transformation using Azure services, and insights into data security and cloud compliance.
+      Link (Optional): N/A
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet:  🎉 Certification Earned: Introduction to Data Engineering on Azure by @MicrosoftLearn! 🚀
+
+      tweet:  This course covered the essentials of data engineering on Azure, including building data pipelines, managing data, and data transformation.
+
+      tweet:  Key Takeaways:
+      🔹 Designing and implementing data storage solutions on Azure
+      🔹 Data processing & transformation using Azure services
+      🔹 Gaining insights into data security and cloud compliance
+
+      tweet:  This journey has deepened my understanding of how data is managed in the cloud, and I’m excited to bring these skills to future projects! 
+
+      tweet:  Hope this inspires you to start your own journey with @MicrosoftLearn. 🚀
+
+      #DataEngineering #MicrosoftAzure #CloudComputing #DataTransformation #LearningJourney
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Certificate Name: Complete Node.js Developer Course
+      Details: This course covered everything from Node.js fundamentals to advanced backend features, including Node.js basics, Express.js for web apps, MongoDB for data storage, and WebSocket for real-time features. Key takeaways include a deep understanding of Node.js, building full-stack apps, and integrating databases.
+      Link (Optional): N/A
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet:  📜 Certification Earned: Complete Node.js Developer Course from @Udemy! 🎉
+
+      tweet:  This course covered everything from Node.js fundamentals to advanced backend features.
+
+      tweet:  Course Highlights:
+      🔸 Node.js basics & backend development principles
+      🔸 Using Express.js to create web apps
+      🔸 MongoDB for data storage & WebSocket for real-time features
+
+      tweet:  Key Takeaways:
+      🔹 Deep understanding of Node.js & its ecosystem
+      🔹 Building full-stack apps & integrating databases
+      🔹 Enhanced problem-solving & backend programming skills
+
+      tweet:  Excited to use these skills to build scalable server applications! 💪
+
+      #NodeJS #BackendDevelopment #WebSocket #MongoDB #JavaScript #Udemy
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Certificate Name: MERN Bootcamp
+      Details: This intensive course covered the full MERN stack (MongoDB, Express, React, Node), teaching how to build full-stack applications from scratch. Highlights include secure authentication with JWT, building and testing REST APIs, and hands-on full-stack app development.
+      Link (Optional): N/A
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet:  💥 Certification Earned: MERN Bootcamp on @Udemy! 🚀
+
+      tweet:  This intensive course covered the full MERN stack (MongoDB, Express, React, Node), teaching how to build full-stack applications from scratch.
+
+      tweet:  Course Highlights:
+      🔹 Overview of MongoDB, Express, React, and Node.js
+      🔹 Secure authentication with JSON Web Tokens (JWT)
+      🔹 Building & testing REST APIs with Postman API
+
+      tweet:  Key Takeaways:
+      ✅ Hands-on experience in full-stack app development
+      ✅ Deepened understanding of RESTful architecture
+      ✅ Enhanced proficiency in building and testing web applications
+
+      tweet:  Excited to continue building powerful, scalable web apps! 🎉
+
+      #MERNStack #FullStackDevelopment #ReactJS #WebDevelopment #Udemy
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Certificate Name: Complete JavaScript Course
+      Details: This course covered basic JavaScript concepts to advanced programming techniques, including JavaScript fundamentals, OOP, manipulating the DOM, and using REST APIs. Key takeaways include strengthened JavaScript skills, object-oriented design, and confidence to build interactive applications.
+      Link (Optional): N/A
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet:  📘 Certification Earned: Complete JavaScript Course on @Udemy! 🚀
+
+      tweet:  This in-depth course covered everything from basic JavaScript concepts to advanced programming techniques.
+
+      tweet:  Course Highlights:
+      🔸 JavaScript fundamentals & advanced OOP
+      🔸 Manipulating the DOM for dynamic front-end apps
+      🔸 Using REST APIs, JSON, & debugging tools
+
+      tweet:  Key Takeaways:
+      ✨ Strengthened my JavaScript skills
+      ✨ Learned object-oriented design in JS projects
+      ✨ Gained confidence to build interactive, data-driven applications
+
+      tweet:  Ready to tackle more challenging projects with this new knowledge! 🌐
+
+      #JavaScript #WebDevelopment #OOP #Udemy #FrontEndDevelopment
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Certificate Name: Responsive Website using HTML & CSS
+      Details: This course covered building responsive, mobile-friendly web layouts using HTML5, CSS3, Flexbox, CSS Grid, and Bootstrap. Key takeaways include hands-on experience with responsive designs, improved understanding of CSS Grid and Flexbox, and modern web development practices.
+      Link (Optional): N/A
+      """
+    ),
+    ChatMessage.from_assistant(
+      """
+      tweet:  🌐 Certification Earned: Responsive Website using HTML & CSS on @Udemy! 🎉
+
+      tweet:  This course covered building responsive, mobile-friendly web layouts for seamless user experiences across devices.
+
+      tweet:  Course Highlights:
+      🔹 HTML5 & CSS3 for structure & styling
+      🔹 Using Flexbox, CSS Grid, & Bootstrap for responsive designs
+      🔹 Best practices for front-end development
+
+      tweet:  Key Takeaways:
+      💡 Hands-on experience creating mobile-friendly designs
+      💡 Improved understanding of CSS Grid & Flexbox
+      💡 Practical knowledge of modern web development tools
+
+      tweet:  Excited to keep refining my design skills for accessible, engaging web experiences! 💻
+
+      #ResponsiveDesign #CSS3 #HTML5 #WebDesign #FrontEndDevelopment #Udemy
+      """
+    )
+  ],
+  "hackathon":[
+    ChatMessage.from_user(
+      """
+      Name: Hackz'24 - Ideathon
+      Purpose: Submission for Round 1
+      Details: Worked on the fintech track with a focus on innovating customer service. Developed a Customizable Multilingual AI Chatbot (INFINSA BOT) featuring multilingual context-aware responses, image processing capabilities, customizable workflows, a learning mode, and real-time data privacy compliance. The journey included brainstorming, researching AI frameworks, and prototyping with Figma before submission.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet:  🚀 Hey folks! I’m thrilled to announce that we’ve officially submitted our solution for Round 1 of the Hackz'24 - Ideathon hosted by @CSEA_CEG! 🎉
+
+      tweet:  It’s been an incredible journey working alongside my talented teammates – Harini S., Adithyan, and Sundhar Balamoorthy – who brought their creativity and skills to bring our idea to life. 🤝
+
+      tweet:  We chose the fintech track, believing in the vast potential to innovate in this space. After deep research, we identified a critical problem in customer service: traditional chatbots fall short in addressing complex customer needs, leading to frustration and high costs. 💡
+
+      tweet:  Our solution? A Customizable Multilingual AI Chatbot - INFINSA BOT, designed to transform customer service by:
+      🌐 Multilingual and context-aware responses
+      📷 Image processing capabilities
+      🔧 Customizable workflows for tailored user experiences
+      📈 A learning mode for continuous improvement
+      🔒 Real-time data privacy & security compliance
+
+      tweet:  The journey started with brainstorming ideas to enhance customer engagement and reduce the need for traditional support. We dove into AI frameworks, customer service challenges, and researched existing solutions, working through iterations and obstacles. 🔍
+
+      tweet:  After crafting a presentation, building a Figma prototype, and recording an explanation video, we wrapped it up and hit submit! ✅
+
+      tweet:  Excited to see where this journey takes us next! 🚀
+
+      #Hackz24 #FintechInnovation #AIChatbot #CustomerExperience #Teamwork #Hackathon #CSEA #Innovation
+      """
+    ),
+    ChatMessage.from_user(
+      """
+      Name: Smart India Hackathon 2024 (SIH 2024)
+      Purpose: Submission for problem statement SIH1603 by Bharat Electronics Limited (BEL)
+      Details: Tackled the challenge of building a Conversational Image Recognition Chatbot capable of detecting objects in images, engaging in contextual conversations, and generating grammatically correct responses. The team explored technologies like image recognition, object detection, and LLMs, researched existing solutions, and refined their approach through multiple iterations. Final deliverables included a presentation and an explainer video.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet:  🌟 Hey friends! Exciting news – we’ve officially submitted our solution for SIH 2024! 🎉
+
+      tweet:  It’s been an amazing experience working with my fantastic teammates – Harini S, Raja S, Dinesh Kumar, Shazz Abdul Samed, and Himanesh Venkatesan. 💪 We put our heads together to solve a challenging problem from Bharat Electronics Limited (BEL). 🤝
+
+      tweet:  We tackled SIH1603 – Conversational Image Recognition Chatbot. The challenge? Build a chatbot that can:
+      🔍 Detect objects in images
+      💬 Have a contextual conversation about those objects
+      ✍️ Generate grammatically correct responses
+
+      tweet:  Why we chose this challenge? The complexity, the use of emerging technologies, and the excitement of applying AI frameworks to real-world problems! 💡
+
+      tweet:  From learning about image recognition, object detection, and LLMs, to researching existing solutions and refining our own, we pushed through multiple revisions, and worked hard to craft a solution we’re proud of. 💻
+
+      tweet:  After creating a presentation and an explainer video, we wrapped it all up and hit submit! ✅
+
+      tweet:  Can’t wait to see where this journey takes us! 🚀
+
+      #SIH2024 #Innovation #AI #Hackathon #AIChatBot #SmartIndiaHackathon #Teamwork #Technology
+      """
+    )
+  ],
+  "project":[
+    ChatMessage.from_user(
+      """
+      Details: Completed backend work for the Techofes Website, including designing a robust PostgreSQL database schema and developing a Node.js API that integrates with a React.js frontend. Key features include a public route for website info and an admin route connected to a mobile app for real-time fest monitoring.
+      Link (Optional): Not mentioned.
+      Purpose: Announcement of completing the backend work for Techofes.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      1/ 🚀 Exciting news! I’ve completed the backend work for the Techofes Website! 🌐 Techofes, the grand cultural fest of College of Engineering, Guindy, holds a special place in my heart 🎉
+
+      2/ The journey began with a basic backend structure by my senior, and I took it to the next level by designing a robust database schema in PostgreSQL 🛠️
+
+      3/ The Techofes API, powered by Node.js, integrates seamlessly with React.js on the frontend. 🔗
+
+      4/ Key API features:
+      🔑 A public route to display website info
+      📱 Admin route connected to a mobile app to monitor the fest in real-time!
+
+      5/ I’m ecstatic to share that this API is gearing up to go live soon! 🚀 Stay tuned for more updates! 🙌
+
+      #Techofes #BackendDevelopment #NodeJS #ReactJS #PostgreSQL #TechMilestone #AnnaUniversity
+      """
+    ),
+    ChatMessage.from_user(
+      """ 
+      Details: Developed the "Admin API" for Kurukshetra, a national-level tech fest. The work involved implementing controllers, models, and routes with advanced features like ordering, filtering, and sorting. Used TypeScript, PostgreSQL, and TypeORM for efficiency and robust data handling. Currently in the staging and deployment phase.
+      Link (Optional): Not mentioned.
+      Purpose: Sharing an update about backend development for Kurukshetra.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      1/ 🚀 Big shoutout to my teammate Raja S and I for working tirelessly on the "Admin API" for Kurukshetra, a national-level tech fest at College of Engineering, Guindy! ✨
+
+      2/ Over the past few weeks, we’ve implemented controllers, models, and routes to structure the raw data in a clear, usable way 📊
+
+      3/ We added powerful features like ordering, filtering, and sorting to make navigating the data super easy 🔧
+
+      4/ Tech stack we used:
+      🚀 TypeScript for efficiency
+      💾 PostgreSQL & TypeORM for robust data storage & retrieval
+
+      5/ We’ve moved to the staging and deployment phase, and it’s amazing to see everything coming together! 🎉🚀
+
+      #TechFest #Kurukshetra #BackendDevelopment #TypeScript #PostgreSQL #TypeORM #TechCommunity #CEGTechForum
+      """
+    ),
+    ChatMessage.from_user(
+      """ 
+      Details: Built a scalable ETL pipeline to collect and process movie details using Python, TMDB API, and PostgreSQL. Developed the Met-Movie-API in Flask for interacting with enriched movie data.
+      Link (Optional): GitHub Repo
+      Purpose: Sharing progress and inviting collaboration on a data engineering project.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      1/ 🚀 Exciting news! I’ve just conquered a challenging data engineering task! 🎉
+
+      2/ The task involved collecting movie details starting with 'S' and 'H' from sites like IMDb, Rotten Tomatoes, and Wikipedia 🎬
+
+      tweet:  I used Python to build a scalable ETL pipeline:
+      🔄 Extracted data from TMDB API
+      🔄 Transformed & enriched data for a PostgreSQL database
+      🔄 Loaded it into a clean database schema
+
+      tweet:  Built the Met-Movie-API in Flask, enabling users to interact with enriched movie data 📚
+
+      tweet:  I'm thrilled to share my progress and invite you to explore the project on GitHub! 🤝🚀 Let’s collaborate and innovate together!
+
+      GitHub Repo: https://lnkd.in/gXFf-8gX
+
+      #DataEngineering #ETL #Python #FlaskAPI #PostgreSQL #Docker #GitHub #DataPipeline #Innovation
+      """
+    ),
+    ChatMessage.from_user(
+      """ 
+      Details: Developed real-time AI projects using ReactJS, React Webcam, and TensorFlowJS, focusing on face, hand, gesture, object, and body pose detection. Provided documentation and a live GitHub Pages demo for easy access and understanding.
+      Link (Optional): GitHub Pages
+      Purpose: Announcement and invitation for collaboration on innovative AI projects.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet:  🚀 Exciting announcement! I built innovative real-time AI projects using ReactJS, React Webcam, and TensorFlowJS! 🤖
+
+      tweet:  These projects focus on seamless face, hand, gesture, object, and body pose detection, pushing AI boundaries! 💪
+
+      tweet:  Documentation for easy understanding and you can experience it live on GitHub Pages 🌐🔗
+
+      tweet:  I’m inviting contributors to run the hosted page and add their tested results to the documentation 📚 Let's collaborate to make it even better! 🙌
+
+      Check it out: https://lnkd.in/gGvQpdub
+
+      #AI #TensorFlowJS #RealTimeProjects #ReactJS #MachineLearning #Collaboration
+      """
+    ),
+    ChatMessage.from_user(
+      """ 
+      Details: Completed the Met-Social-Media-API, a real-time Social Media Handler API built with Node.js, PostgreSQL, and Prisma ORM. The project includes clear documentation, a Postman collection for testing, and is open for contributions.
+      Link (Optional): Postman Workspace
+      Purpose: Announcement and call for contributions to the Met-Social-Media-API.
+      """
+    ),
+    ChatMessage.from_assistant(
+      """ 
+      tweet:  🚀 Thrilled to announce the completion of the Met-Social-Media-API! 🎉 It’s a real-time Social Media Handler API built with NodeJS, PostgreSQL, and Prisma ORM 💻
+
+      tweet:  The project comes with clear documentation and a Postman collection for easy use and testing 📚📝
+
+      tweet:  We’re opening this project for contributions! 🚀 If you're interested, read our contributing guide, and your work will be reviewed and merged! 💪
+
+      tweet:  Explore the API endpoints in our public Postman workspace and start building with us! 📊🔧 Join us here: https://lnkd.in/gGvQpdub
+
+      #NodeJS #API #PostgreSQL #PrismaORM #SocialMedia #Postman #OpenSource
+      """
+    )
+  ]
+}
+
 def get_linkedin_chat_history(history_type:str) -> List[ChatMessage]:
   return linkedin_chat_history[history_type]
+
+def get_twitter_chat_history(history_type:str) -> List[ChatMessage]:
+  return twitter_chat_history[history_type]
 
 def update_linkedin_chat_history(history_type:str, data:str, response:str):
   global linkedin_chat_history
