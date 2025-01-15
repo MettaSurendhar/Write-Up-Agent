@@ -20,6 +20,8 @@ linkedin_prompts=[
         Use emojis thoughtfully to enhance readability and add personality.
         Include relevant hashtags to improve visibility and reach.
       
+      **Revise the event details or thanks details only if necessary to align with professional standards and the intended audience.**
+
       By following this structure, you will help professionals effectively communicate their event experiences, foster meaningful connections, and inspire engagement with their posts.
       
       {{data}}
@@ -44,6 +46,9 @@ linkedin_prompts=[
         Use emojis sparingly to make the post visually appealing and friendly.
         Include relevant hashtags to increase visibility and engagement.
         Keep the tone professional yet approachable, matching the style of previous examples in this chat history.
+          
+      
+      **Revise the blog title, summary, or description only if necessary to align with professional standards and the intended audience.**
 
       By following this structure, you will ensure the LinkedIn post effectively communicates the blog's value while engaging a professional audience.
 
@@ -69,8 +74,10 @@ linkedin_prompts=[
         Maintain a professional yet conversational tone, reflecting enthusiasm and authenticity.
         Use emojis sparingly and purposefully to enhance readability and engagement.
         Include relevant hashtags to maximize reach and visibility.
-        This structure helps professionals effectively communicate their experiences, express gratitude, and inspire engagement with their LinkedIn network.
+        
+      **Revise the experience details, preference, gratitude only if necessary to align with professional standards and the intended audience.**
 
+      This structure helps professionals effectively communicate their experiences, express gratitude, and inspire engagement with their LinkedIn network.
       
       {{data}}
       """
@@ -97,8 +104,10 @@ linkedin_prompts=[
         Keep the tone professional yet enthusiastic, showcasing pride in the achievement.
         Use emojis purposefully to add warmth and engagement without overwhelming the text.
         Include relevant hashtags to amplify reach and visibility.
-        This structure ensures the certification post is impactful, relatable, and celebrates the professional's hard work and achievement.
 
+      **Revise the certificate details only if necessary to align with professional standards and the intended audience.**  
+        
+      This structure ensures the certification post is impactful, relatable, and celebrates the professional's hard work and achievement.
       
       {{data}}
       """
@@ -125,8 +134,10 @@ linkedin_prompts=[
         Maintain a professional and proud tone while celebrating the achievement.
         Use emojis thoughtfully to add energy and personality.
         Incorporate relevant hashtags to increase visibility and engagement.
-        This structure ensures your post is clear, compelling, and resonates with the LinkedIn audience while showcasing the value of your work.
 
+      **Revise the contribution details or type of contribution only if necessary to align with professional standards and the intended audience.**
+
+      This structure ensures your post is clear, compelling, and resonates with the LinkedIn audience while showcasing the value of your work.
       
       {{data}}
       """
@@ -158,8 +169,10 @@ linkedin_prompts=[
         Maintain a professional yet approachable tone while celebrating the experience.
         Use emojis thoughtfully to express enthusiasm and engage readers.
         Incorporate relevant hashtags to increase visibility and connect with the hackathon community.
-        This structure ensures your post captures the spirit of innovation, collaboration, and growth that hackathons embody, making it both relatable and impactful for your LinkedIn audience.
 
+      **Revise the hackathon purpose or details only if necessary to align with professional standards and the intended audience.**
+      
+      This structure ensures your post captures the spirit of innovation, collaboration, and growth that hackathons embody, making it both relatable and impactful for your LinkedIn audience.
       
       {{data}}
       """
@@ -186,8 +199,10 @@ linkedin_prompts=[
         Ensure the post maintains a professional tone while being approachable and engaging.
         Use relevant emojis to reflect enthusiasm and add a personal touch.
         Hashtags can be included to boost reach and increase visibility.
-        By using this structure, your post will effectively convey the purpose of your project experience while encouraging engagement and connection with your LinkedIn network.
+        
+      **Revise the project details or purpose only if necessary to align with professional standards and the intended audience.**
 
+      By using this structure, your post will effectively convey the purpose of your project experience while encouraging engagement and connection with your LinkedIn network.
       
       {{data}}
       """
