@@ -214,8 +214,8 @@ linkedin_post_categories={
     "Blog Link":"URL to access the blog"
   },
   "experience":{
-    "Detail":"Concise description of the experience or project",
     "Preference":"Order of priority for presenting gratitude, highlights, or summary",
+    "Detail":"Concise description of the experience or project",
     "Gratitude":"Acknowledgment of people, groups, or entities involved in the experience"
   },
   "certificate":{
@@ -224,18 +224,18 @@ linkedin_post_categories={
     "Link":"Optional URL for verification of the certification"
   },
   "contribution":{
-    "Details":"Overview of what the contribution entails",
     "Link":"URL to access the contribution",
+    "Details":"Overview of what the contribution entails",
     "Type of Contribution":"Specify whether it’s a template, notion setup, repository, etc"
   },
   "hackathon":{
     "Hackathon Title":"Title of the hackathon",
-    "Purpose":"Reason for participation (e.g., submission, won, finalist)",
-    "Details":"Overview or highlights of the experience"
+    "Details":"Overview or highlights of the experience",
+    "Purpose":"Reason for participation (e.g., submission, won, finalist)"
   },
   "project":{
-    "Details":"Main message or content of the post",
     "Link":"Optional URL to include for further details or reference",
+    "Details":"Main message or content of the post",
     "Purpose":"Brief reason for the post (e.g., sharing insight, seeking feedback, announcing something)"
   }
 }

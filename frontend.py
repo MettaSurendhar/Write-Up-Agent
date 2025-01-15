@@ -18,12 +18,12 @@ if 'source' not in st.session_state:
 # if 'session_id' not in st.session_state:
 #   st.session_state.session_id=None
 
-if 'knowledge_base' not in st.session_state:
-  st.session_state.knowledge_base=None
+if 'post_category' not in st.session_state:
+  st.session_state.post_category=None
   
 ## INITIALIZE VARIABLES
 # kb_dict={"Arxiv KB":"AWS_KNOWLEDGE_BASE_ID"}
-kb_selected=""
+category_selected=""
 
 ## FUNCTION TO CLEAR CHAT HISTORY
 # def clear_chat_history():
@@ -37,23 +37,35 @@ kb_selected=""
 #   st.session_state.metadata=metadata
 #   st.session_state.source = {"active":True}
 
+### HEADER COMPONENTS
+st.title("Write-Up Agent")
+st.subheader(f"AI-Powered Write-Up Assistant",divider="grey")
+
 ### SIDEBAR COMPONENTS
+st.markdown(
+    """
+    <style>
+        section[data-testid="stSidebar"] {
+            width: 20em !important; # Set the width to your desired value
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 with st.sidebar:
   
-  category_selected= st.selectbox(
-    "Choose The Post Category",
-    (list(linkedin_post_categories.keys()))
-  )
-  st.session_state.knowledge_base = linkedin_post_categories[category_selected]
-
+  st.header("CONFIG PANEL")
   st.divider()
-  st.sidebar.button('Clear History', on_click=clear_chat_history)
 
-### HEADER COMPONENTS
-st.title("QA Agent")
-st.subheader(f"AI-Powered Search Assistant")
-st.caption(f"Uses the {kb_selected} Knowledge Base")
-st.divider()
+  category_selected= st.selectbox(
+    "Pick Your Post Category",
+    [word.capitalize() for word in list(linkedin_post_categories.keys())],help="select the type of the post"
+  )
+  st.session_state.post_category = linkedin_post_categories[category_selected.lower()]
+
+  writing_style = st.text_input("Writing Style Guidelines",help="eg: professional, friendly, engaging",placeholder="optional")
+  # st.sidebar.button('Clear History', on_click=clear_chat_history)
 
 ## DISPLAY CHAT HISTORY
 # for message in st.session_state.messages:
@@ -74,26 +86,42 @@ st.divider()
 #         st.button("ℹ️", key=f"{hash(response['summary'])}", on_click=lambda r=response["metadata"]: source_callback(r))
 
 ### CHAT  
-if prompt := st.chat_input("Ask anything..."):
-    
-  st.session_state.messages.append({"role": "user", "response": prompt})
-  with st.chat_message("user"):
-    st.markdown(prompt)
-  
-  response_instance = st.chat_message("assistant")
-  with response_instance:
+categories = list(st.session_state.post_category.items())
+
+with st.chat_message("user"):
+  st.markdown(f"**{category_selected.upper()} INFORMATION**")
+  key,value = categories[0]
+  inp1 = st.text_input(key,placeholder=value)
+  key,value = categories[1]
+  inp2 = st.text_area(key,placeholder=value,height=150)
+  key,value = categories[2]
+  inp3 = st.text_area(key,placeholder=value,height=68)
+
+response_instance = st.chat_message("assistant")
+with response_instance:
     with st.spinner("Analyzing..."):
-      response = responseGenerator(query=prompt,session_id=st.session_state.session_id,knowledge_base_id=st.session_state.knowledge_base)
-          
-  with response_instance:
-    st.markdown(response["summary"])
+      st.write('hello')
+
+# if prompt := st.chat_input("Ask anything..."):
     
-    if response.get("metadata") and len(response["metadata"]) > 0 and response["metadata"][0]["documentContent"]:
-      st.button("ℹ️", key=f"{hash(response['summary'])}", on_click=lambda r=response["metadata"]: source_callback(r))
-    st.session_state.session_id=response['sessionId']
+#   st.session_state.messages.append({"role": "user", "response": prompt})
+#   with st.chat_message("user"):
+#     st.markdown(prompt)
+  
+#   response_instance = st.chat_message("assistant")
+#   with response_instance:
+#     with st.spinner("Analyzing..."):
+#       response = responseGenerator(query=prompt,session_id=st.session_state.session_id,knowledge_base_id=st.session_state.knowledge_base)
+          
+#   with response_instance:
+#     st.markdown(response["summary"])
+    
+#     if response.get("metadata") and len(response["metadata"]) > 0 and response["metadata"][0]["documentContent"]:
+#       st.button("ℹ️", key=f"{hash(response['summary'])}", on_click=lambda r=response["metadata"]: source_callback(r))
+#     st.session_state.session_id=response['sessionId']
    
      
-    st.session_state.messages.append({"role": "assistant", "response": response})
+#     st.session_state.messages.append({"role": "assistant", "response": response})
 
     ## '{'content':'something'}'
     ## ' hi '
