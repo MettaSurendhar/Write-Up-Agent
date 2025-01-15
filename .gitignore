@@ -5,6 +5,13 @@ build/
 dist/
 wheels/
 *.egg-info
+.python-version
 
 # Virtual environments
 .venv
+
+# Environment files
+.env
+
+# VScode files
+.vscode/
