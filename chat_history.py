@@ -300,7 +300,7 @@ twitter_chat_history= {
       tweet: Huge thanks to Manikandan Krishnamurthy, Vijayabharathi Karuppasamy, Padmanaban Solaimalai, and YuniQ for making this event a success! 🙏 Plus, taking home some cool swag (Kubernetes socks!) 🧦💙 #CNCFMeetup #TechCommunity
       """
     ),
-    ChatMessage.from_usre(
+    ChatMessage.from_user(
       """
       Event Title: Grafana Labs & Friends Chennai Meetup
       Event Details: Sessions included "Performance Testing Your Observability Stack - K6 to Your Rescue" by Chandra Mohan Dhanasekaran, "Our Grafana Story" by Manojkumar G, and "Leveraging OpenTelemetry for Observability" by Selvaraj Kuppusamy, showcasing advancements in observability, performance testing, and OpenTelemetry integration.

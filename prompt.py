@@ -427,7 +427,8 @@ def get_prompt(media_type:str, category:str):
 
 # ------------ CATEGORY ------------- #
 
-linkedin_post_categories={
+socials = ["linkedin","twitter"]
+categories={
   "event":{
     "Event Title":"Name of the event attended",
     "Event Details":"A brief description of key sessions, topics, and speakers",

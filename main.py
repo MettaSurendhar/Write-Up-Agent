@@ -3,7 +3,7 @@ from typing import Any
 from agents import Agent,ChatAgent
 from haystack.dataclasses import ChatMessage, ChatRole
 from chat_history import get_linkedin_chat_history, get_twitter_chat_history, update_linkedin_chat_history
-from prompt import get_linkedin_prompt, writing_style_prompt
+from prompt import get_prompt, writing_style_prompt
 from config import agent_settings
 
 
