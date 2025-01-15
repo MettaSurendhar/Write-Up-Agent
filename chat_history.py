@@ -275,6 +275,5 @@ def get_linkedin_chat_history(history_type:str) -> List[ChatMessage]:
 
 def update_linkedin_chat_history(history_type:str, data:str, response:str):
   global linkedin_chat_history
-  print("history_type: ",history_type,"/n","data: ",data,"response: ",response)
   linkedin_chat_history[history_type].append(ChatMessage.from_user(data))
   linkedin_chat_history[history_type].append(ChatMessage.from_assistant(response))

@@ -3,7 +3,7 @@ from typing import List, Dict
 
 from prompt import linkedin_post_categories
 from main import response_generator,chat_response_generator
-from chat_history import update_linkedin_chat_history
+from chat_history import update_linkedin_chat_history,get_linkedin_chat_history
 
 # load_dotenv()
 
@@ -26,20 +26,35 @@ if 'data' not in st.session_state:
 if 'post_category' not in st.session_state:
   st.session_state.post_category=None
 
+if 'response' not in st.session_state:
+  st.session_state.response=None
+
 ## INITIALIZE VARIABLES
 # kb_dict={"Arxiv KB":"AWS_KNOWLEDGE_BASE_ID"}
 
 ## FUNCTION TO CLEAR CHAT HISTORY
-# def clear_chat_history():
-#   st.session_state.messages = [{"role": "assistant", "response": "How may I assist you today?"}]
-#   st.session_state.session_id=None
+def generate_response_instance(data:str):
+  st.session_state.response_state = True
 
-# def cancel_source():
-#   st.session_state.source = {"active":False}
+def generate_clear_instance():
+  st.session_state.inp1 = st.session_state.inp2 = st.session_state.inp3 = ""
 
-# def source_callback(metadata:List[Dict]):
-#   st.session_state.metadata=metadata
-#   st.session_state.source = {"active":True}
+def generate_done_instance(history_type:str,data:str,response:str):
+  update_linkedin_chat_history(history_type,data,response)
+  generate_clear_instance()
+  st.session_state.inp_ws = ""
+
+def generate_cancel_instance():
+  generate_clear_instance()
+  st.session_state.inp_ws = ""
+  st.session_state.response_state = False
+
+@st.dialog("History Log",width="large")
+def view_chat_history(history_type:str):
+  chat_history = get_linkedin_chat_history(history_type)
+  for chat in chat_history:
+    st.chat_message("user" if chat.role=="user" else "assistant").markdown(chat.content)
+
 
 ### HEADER COMPONENTS
 st.title("Write-Up Agent")
@@ -68,6 +83,12 @@ with st.sidebar:
   st.session_state.post_category = linkedin_post_categories[st.session_state.category_selected.lower()]
 
   st.session_state.writing_style = st.text_input("Writing Style Guidelines",help="eg: professional, friendly, engaging",placeholder="optional",key="inp_ws")
+
+  # st.write("Your Post Journey")
+  left,right = st.columns([2,1],vertical_alignment ="bottom",gap="small")
+  history_category = left.selectbox("History Log",[word.capitalize() for word in list(linkedin_post_categories.keys())])
+  if right.button("View"):
+    view_chat_history(history_category.lower())
   # st.sidebar.button('Clear History', on_click=clear_chat_history)
 
 ## DISPLAY CHAT HISTORY
@@ -89,18 +110,7 @@ with st.sidebar:
 #         st.button("ℹ️", key=f"{hash(response['summary'])}", on_click=lambda r=response["metadata"]: source_callback(r))
 
 ### CHAT 
-def generate_response_instance(data:str):
-  st.session_state.response_state = True
-
 categories = list(st.session_state.post_category.items())
-
-def generate_done_instance(history_type:str,data:str,response:str):
-  update_linkedin_chat_history(history_type,data,response)
-  generate_clear_instance()
-  st.session_state.inp_ws = ""
-
-def generate_clear_instance():
-  st.session_state.inp1 = st.session_state.inp2 = st.session_state.inp3 = ""
 
 with st.chat_message("user"):
   st.markdown(f"**{st.session_state.category_selected.upper()} INFORMATION**")
@@ -124,15 +134,19 @@ if st.session_state.response_state:
   with st.chat_message("assistant"):
     with st.spinner("Writing✏️..."):
       st.session_state.data=st.session_state.data+"/n/n"+response_generator(st.session_state.writing_style) if st.session_state.writing_style.strip() else st.session_state.data
-      response = chat_response_generator(st.session_state.category_selected.lower(),st.session_state.data)
-    st.markdown(response)
+      st.session_state.response = chat_response_generator(st.session_state.category_selected.lower(),st.session_state.data)
+    st.markdown(st.session_state.response)
 
-    l1,l2,l3,l4,middle,right = st.columns(6)
+    left,l2 = st.columns([0.9,5])
     st.session_state.response_state=False
-    middle.button("retry",icon=":material/refresh:",use_container_width=True,on_click=generate_response_instance,args=[st.session_state.data])
+    left.button("retry",icon=":material/refresh:",use_container_width=True,on_click=generate_response_instance,args=[st.session_state.data])
+
+  left,middle,right = st.columns([3,0.7,0.65])
+  right.button("Done",icon=":material/check:",type="primary",use_container_width=True,on_click=generate_done_instance,args=[st.session_state.category_selected.lower(),st.session_state.data,st.session_state.response])
     
-    right.button("Done",icon=":material/check:",type="primary",on_click=generate_done_instance,args=[st.session_state.category_selected.lower(),st.session_state.data,response])
+  middle.button("Cancel",icon=":material/close:",type="secondary",use_container_width=True,on_click=generate_cancel_instance)
     
+
 # # Check the rerun flag and trigger rerun
 # if st.session_state.should_rerun:
 #   st.session_state.response_state=False
