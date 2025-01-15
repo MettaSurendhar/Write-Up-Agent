@@ -9,7 +9,7 @@ from config import agent_settings
 
 ## --- Chat Response Generator --- ##
 def chat_response_generator(type: str, data: str):
-  
+  print("chat data:/n"+data)
   linkedin_chat_history = get_linkedin_chat_history(type)
   agent_chat_history = [ChatMessage(content=agent_settings['agent_description']['linkedin'],role=ChatRole.SYSTEM,name=agent_settings['agent_name'])] 
   chat_history = agent_chat_history + linkedin_chat_history
@@ -21,7 +21,7 @@ def chat_response_generator(type: str, data: str):
 
   result = chat_agent.run(data,user_prompt)
   response = result["response"]
-
+  print("chat_response:/n"+response)
   return response
 
 
@@ -44,9 +44,10 @@ def chat_response_generator(type: str, data: str):
 
 # --- Response Generator --- ##
 def response_generator(data: str):
-  
+  print("writing data"+data)
   writing_style_agent = Agent(writing_style_prompt)
   response = writing_style_agent.run(data)
+  print("response:/n"+response)
   return response
 
 
