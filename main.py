@@ -24,30 +24,11 @@ def chat_response_generator(type: str, data: str):
   response = result["response"]
   return response
 
-
-## --- Chat Voice Response Generator --- ##
-# def chat_voice_response_generator(type: str, category: str, file, data: dict[str, Any]):
-  
-#   chat_history = get_chat_history_by_type(type)
-#   chat_agent = ChatAgent(chat_history)
-#   prompt = get_prompt_by_category(category=category)
-#   user_prompt=ChatMessage.from_user(prompt)
-#   query = voice_agent(file)
-#   result = chat_agent.run(query,data,user_prompt)
-#   response = result["response"]
-
-#   chat_history.append(ChatMessage.from_user(query))
-#   chat_history.append(ChatMessage.from_assistant(response))
-
-#   return response
-
-
 # --- Response Generator --- ##
 def response_generator(data: str):
   writing_style_agent = Agent(writing_style_prompt)
   response = writing_style_agent.run(data)
   return response
-
 
 ## Example usage chat response generator: 
 # info=" Blog Information: /n Blog Title: From Newbie to Web Developer /n Blog: Starting out in web development can feel a bit like navigating a maze with no map. In my latest blog post, I share how I went from a complete newbie to building my own websites. I talk about the struggles I faced, the resources that helped me, and some tips that might make your path a bit smoother. /n Blog Link: Metta’s Tech Bytes 🚀." 
@@ -62,6 +43,3 @@ def response_generator(data: str):
 ## Example usage response generator
 # data="no emoji /n professional /n friendly /n engaging"
 # print(response_generator(data))
-
-history = get_linkedin_chat_history("hackathon")
-print([chat.role=="user"  for chat in history ])

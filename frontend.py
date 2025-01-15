@@ -5,12 +5,7 @@ from prompt import linkedin_post_categories
 from main import response_generator,chat_response_generator
 from chat_history import update_linkedin_chat_history,get_linkedin_chat_history
 
-# load_dotenv()
-
-## INITIALIZE SESSION STATE
-# if "messages" not in st.session_state:
-#   st.session_state.messages = [{"role": "assistant", "response": "How may I assist you today?"}]
-
+### INITIALIZE SESSION STATE
 if 'response_state' not in st.session_state:
   st.session_state.response_state = False
 
@@ -29,10 +24,8 @@ if 'post_category' not in st.session_state:
 if 'response' not in st.session_state:
   st.session_state.response=None
 
-## INITIALIZE VARIABLES
-# kb_dict={"Arxiv KB":"AWS_KNOWLEDGE_BASE_ID"}
 
-## FUNCTION TO CLEAR CHAT HISTORY
+### FUNCTIONS
 def generate_response_instance(data:str):
   st.session_state.response_state = True
 
@@ -49,6 +42,7 @@ def generate_cancel_instance():
   st.session_state.inp_ws = ""
   st.session_state.response_state = False
 
+### DIALOG
 @st.dialog("History Log",width="large")
 def view_chat_history(history_type:str):
   chat_history = get_linkedin_chat_history(history_type)
@@ -72,46 +66,25 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+### SIDEBAR
 with st.sidebar:
   
   st.header("CONFIG PANEL",divider="orange")
 
-  st.session_state.category_selected= st.selectbox(
-    "Pick Your Post Category",
-    [word.capitalize() for word in list(linkedin_post_categories.keys())],help="select the type of the post"
-  )
+  st.session_state.category_selected= st.selectbox("Pick Your Post Category",
+    [word.capitalize() for word in list(linkedin_post_categories.keys())],help="select the type of the post")
   st.session_state.post_category = linkedin_post_categories[st.session_state.category_selected.lower()]
-
   st.session_state.writing_style = st.text_input("Writing Style Guidelines",help="eg: professional, friendly, engaging",placeholder="optional",key="inp_ws")
-
-  # st.write("Your Post Journey")
+  
   left,right = st.columns([2,1],vertical_alignment ="bottom",gap="small")
   history_category = left.selectbox("History Log",[word.capitalize() for word in list(linkedin_post_categories.keys())])
   if right.button("View"):
     view_chat_history(history_category.lower())
-  # st.sidebar.button('Clear History', on_click=clear_chat_history)
-
-## DISPLAY CHAT HISTORY
-# for message in st.session_state.messages:
-    
-#   with st.chat_message(message["role"]):
-
-#     if message["role"] != "assistant":
-#       st.markdown(message["response"])
-#     else:
-#       response = message["response"]
-#       if isinstance(response, str):
-#         try:
-#           response = eval(response)
-#         except Exception as e:
-#           response = {"summary":message["response"]}
-#       st.markdown(response["summary"])
-#       if response.get("metadata") and len(response["metadata"]) > 0 and response["metadata"][0]["documentContent"]:
-#         st.button("ℹ️", key=f"{hash(response['summary'])}", on_click=lambda r=response["metadata"]: source_callback(r))
 
 ### CHAT 
 categories = list(st.session_state.post_category.items())
 
+#### USER INPUT
 with st.chat_message("user"):
   st.markdown(f"**{st.session_state.category_selected.upper()} INFORMATION**")
   key1,value1 = categories[0]
@@ -130,6 +103,8 @@ with st.chat_message("user"):
   else:
     right.button("Generate",type="primary",use_container_width=True,disabled=True,on_click=generate_response_instance,args=[st.session_state.data])
   
+
+#### DISPLAY Response
 if st.session_state.response_state:
   with st.chat_message("assistant"):
     with st.spinner("Writing✏️..."):
@@ -137,41 +112,11 @@ if st.session_state.response_state:
       st.session_state.response = chat_response_generator(st.session_state.category_selected.lower(),st.session_state.data)
     st.markdown(st.session_state.response)
 
-    left,l2 = st.columns([0.9,5])
+    l1,right = st.columns([5,0.9])
     st.session_state.response_state=False
-    left.button("retry",icon=":material/refresh:",use_container_width=True,on_click=generate_response_instance,args=[st.session_state.data])
+    right.button("retry",icon=":material/refresh:",use_container_width=True,on_click=generate_response_instance,args=[st.session_state.data])
 
-  left,middle,right = st.columns([3,0.7,0.65])
-  right.button("Done",icon=":material/check:",type="primary",use_container_width=True,on_click=generate_done_instance,args=[st.session_state.category_selected.lower(),st.session_state.data,st.session_state.response])
-    
-  middle.button("Cancel",icon=":material/close:",type="secondary",use_container_width=True,on_click=generate_cancel_instance)
-    
+  left,middle,right = st.columns([0.7,3,0.7],vertical_alignment ="bottom")
+  right.button("Done",icon=":material/thumb_up:",type="primary",use_container_width=True,on_click=generate_done_instance,args=[st.session_state.category_selected.lower(),st.session_state.data,st.session_state.response])
 
-# # Check the rerun flag and trigger rerun
-# if st.session_state.should_rerun:
-#   st.session_state.response_state=False
-#   st.session_state.should_rerun = False  # Reset the flag
-#   st.rerun(scope="app")
-# if prompt := st.chat_input("Ask anything..."):
-    
-#   st.session_state.messages.append({"role": "user", "response": prompt})
-#   with st.chat_message("user"):
-#     st.markdown(prompt)
-  
-#   response_instance = st.chat_message("assistant")
-#   with response_instance:
-#     with st.spinner("Analyzing..."):
-#       response = responseGenerator(query=prompt,session_id=st.session_state.session_id,knowledge_base_id=st.session_state.knowledge_base)
-          
-#   with response_instance:
-#     st.markdown(response["summary"])
-    
-#     if response.get("metadata") and len(response["metadata"]) > 0 and response["metadata"][0]["documentContent"]:
-#       st.button("ℹ️", key=f"{hash(response['summary'])}", on_click=lambda r=response["metadata"]: source_callback(r))
-#     st.session_state.session_id=response['sessionId']
-   
-     
-#     st.session_state.messages.append({"role": "assistant", "response": response})
-
-    ## '{'content':'something'}'
-    ## ' hi '
+  left.button("Cancel",icon=":material/close:",type="secondary",use_container_width=True,on_click=generate_cancel_instance)
